@@ -1,0 +1,25 @@
+.BackGround {
+  background: #0050b3;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 80, 179, 1) 25%,
+    rgba(0, 191, 255, 1) 100%
+
+  );
+}
+.box-hover{
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content:center;
+}
+.box-hover:hover
+{
+    /* box-shadow: rgb(10, 145, 224) 0px 8px 24px; */
+    
+    background-color: #8fdcff52;
+}
+.image{
+  height: 70%;
+  width: 70px;
+}
