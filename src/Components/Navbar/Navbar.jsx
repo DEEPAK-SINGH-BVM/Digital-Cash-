@@ -10,10 +10,10 @@ import {
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import './Navbar.css'
 const navigation = [
-  { name: "Get Started", href: "#", current: false },
-  { name: "Institutions", href: "#", current: false },
-  { name: "Developers", href: "#", current: false },
-  { name: "Community", href: "#", current: false },
+  { name: "Get Started", href: "", current: false },
+  { name: "Institutions", href: "", current: false },
+  { name: "Developers", href: "", current: false },
+  { name: "Community", href: "", current: false },
 ];
 
 function classNames(...classes) {
@@ -25,9 +25,9 @@ export default function Navbar() {
     <div>
       <Disclosure
         as="nav"
-        className="flex justify-center rounded-xl border-black bg-white lg:rounded-sm"
+        className="fixed w-full z-10 flex justify-center rounded-xl border-black bg-white lg:rounded-sm"
       >
-        <div className="mainSection absolute  bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 rounded-xl ">
+        <div className="shadow-md  mainSection absolute  bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 rounded-xl ">
           <div className="relative flex h-16 items-center justify-between ">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}
