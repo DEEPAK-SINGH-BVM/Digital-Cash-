@@ -28,6 +28,7 @@ export default defineConfig({
 =>  font-sans (font-family) 
 =>  text-lg (font-size) 
 =>  font-red(text-red-400)
+=>  font-semibold
 =>  w-96 (width => w-3/5 (60%))
 =>  boxShadow (shadow-2xl)
 =>  padding p-0(padding) 

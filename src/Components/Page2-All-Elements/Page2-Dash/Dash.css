@@ -1,0 +1,8 @@
+.DashBody {
+  background: #0f7bff;
+  background: linear-gradient(
+    95deg,
+    rgba(15, 123, 255, 1) 31%,
+    rgba(0, 49, 110, 1) 100%
+  );
+}

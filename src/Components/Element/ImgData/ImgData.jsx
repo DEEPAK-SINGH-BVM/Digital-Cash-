@@ -11,6 +11,7 @@ const ImgData = ({
 }) => {
   return (
     <div
+      id="HowItWork"
       className={`BoxModel flex justify-center sm:pt-20 sm:gap-30  flex flex-col md:flex-row   ${bgColor}`}
     >
       <div>
