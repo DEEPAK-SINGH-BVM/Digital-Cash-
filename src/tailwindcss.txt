@@ -44,3 +44,4 @@ export default defineConfig({
 =>  border-black (border-color)
 =>  bg-color (bg-red-600)
 =>  text-color (text-red-400)
+=>  Transition (duration-100)

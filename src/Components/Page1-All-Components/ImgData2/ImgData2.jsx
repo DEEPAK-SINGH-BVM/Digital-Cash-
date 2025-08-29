@@ -15,6 +15,9 @@ const ImgData2 = () => {
         paragraph2={
           "Because of the competitive nature of this process (called “mining”), we only recommend doing it with specialty hardware named ASICs, that use chips specially designed to efficiently perform the calculations that secure Dash."
         }
+        className={
+          "cursor-pointer border-sky-600 hover:border-sky-300 hover:text-sky-300 mt-5 text-white p-4 border border-1  border-white w-[200px]  rounded-sm font-semibold"
+        }
         paragraphColor={"text-white"}
         button={"Learn More"}
       />
@@ -22,4 +25,3 @@ const ImgData2 = () => {
   );
 };
 export default ImgData2;
-  

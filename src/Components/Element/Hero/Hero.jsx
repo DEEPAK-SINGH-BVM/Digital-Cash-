@@ -1,7 +1,7 @@
 
-export default function HeroComponents({ HeroImg, HeroTitle ,HeroParagraph }) {
+export default function HeroComponents({ HeroImg, HeroTitle, HeroTitle2, HeroParagraph }) {
   return (
-    <div className="Img-Div relative  bg-sky-900 font-Inter, sans-serif ">
+    <div className=" Img-Div relative  bg-sky-900 font-Inter, sans-serif ">
       {/* <header className="h-[500px] absolute inset-x-0 top-0 ">
        
         <Dialog
@@ -60,11 +60,12 @@ export default function HeroComponents({ HeroImg, HeroTitle ,HeroParagraph }) {
           <img
             src={HeroImg}
             alt="Hero"
-            className="w-full h-[700px] object-cover "
+            className="w-full h-[700px]   object-scale-up opacity-70 banner"
           />
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center ">
           <h2 className="text-5xl text-white font-bold italic">{HeroTitle}</h2>
+          <h2 className="text-5xl text-white font-bold italic">{HeroTitle2}</h2>
           <p className="mt-4 text-lg text-gray-200">{HeroParagraph}</p>
         </div>
       </div>

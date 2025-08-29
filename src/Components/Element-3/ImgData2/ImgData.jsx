@@ -1,0 +1,45 @@
+import React from "react";
+// import "";
+const ImgData2 = ({
+  image,
+  title,
+  paragraph,
+  paragraph2,
+  button,
+  titleColor,
+  paragraphColor,
+  paragraphColor2,
+  bgColor,
+}) => {
+  return (
+    <div
+      id="HowItWork"
+      className={` flex justify-center sm:pt-20 sm:gap-30  flex flex-col md:flex-row   ${bgColor}`}
+    >
+      <div>
+        <img src={image} alt="" className="h-[550px]" />
+      </div>
+      <div class="flex flex-col justify-between p-4 leading-normal">
+        <div>
+          <h5
+            className={`sm:pt-20  mb-2 text-4xl font-bold tracking-tight  ${titleColor}`}
+          >
+            {title}
+          </h5>
+          <p class={`mb-3 w-[350px] text-md font-semibold ${paragraphColor}`}>
+            {paragraph}
+          </p>
+          <p class={`mb-3 w-[350px] text-md font-semibold ${paragraphColor2}`}>
+            {paragraph2}
+          </p>
+          <div>
+            <button className="cursor-pointer hover:border-sky-400 hover:text-sky-400 mt-5 text-white p-4 border border-1  border-white w-[210px]  rounded-sm font-semibold">
+              {button}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default ImgData2;

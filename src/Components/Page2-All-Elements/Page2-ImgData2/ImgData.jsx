@@ -21,15 +21,16 @@
 // };
 // export default ImgData2;
 import React from "react";
-import DashBox from "../../Elements-2/DashBox/Dash";
-import DashButton from "../../Elements-2/Button/Button";
+
 import Button from "../../Elements-2/Button2/Button";
+import DashBox from "../../Elements-2/DashBox/Dash";
+import "./ImgData2.css"
 // import "";
 const ImgData2 = () => {
   return (
     <div>
       <div
-        className={` flex justify-center sm:pt-20 sm:gap-30  flex flex-col md:flex-row bg-sky-500`}
+        className={` flex justify-center sm:pt-20 sm:gap-20  flex flex-col md:flex-row bg-sky-500`}
       >
         <div class="flex flex-col justify-between p-4 leading-normal">
           <div>
@@ -102,25 +103,31 @@ const ImgData2 = () => {
         </div>
         <div></div>
       </div>
-
-      <div className="pt-10 flex justify-center bg-sky-500 gap-10   ">
-        <Button
-          btnImg={
-            "https://media.dash.org/wp-content/uploads/Travala-Logo_Icon-Tight.png"
-          }
-          btnTitle={"Karken"}
-          btnSub={"karken.com"}
-        />
-        <Button
-          btnImg={"	https://media.dash.org/wp-content/uploads/bitrefill-1.svg"}
-          btnTitle={"Karken"}
-          btnSub={"karken.com"}
-        />
-        <Button
-          btnImg={"https://media.dash.org/wp-content/uploads/mobiletopup.png"}
-          btnTitle={"Karken"}
-          btnSub={"karken.com"}
-        />
+      {/* <hr className="HrColor " /> */}
+      <div className="bg-sky-500 pt-20">
+        <hr class="w-[60%] h-0.5 mx-auto  bg-white  rounded-sm border-0 "></hr>
+      </div>
+      <div className="flex justify-center pt-12 pb-12 bg-sky-500 ">
+        {/* <hr className=" " /> */}
+        <div className="flex flex-wrap justify-center gap-6 ">
+          <Button
+            btnImg={
+              "https://media.dash.org/wp-content/uploads/Travala-Logo_Icon-Tight.png"
+            }
+            btnTitle={"Karken"}
+            btnSub={"karken.com"}
+          />
+          <Button
+            btnImg={"	https://media.dash.org/wp-content/uploads/bitrefill-1.svg"}
+            btnTitle={"Karken"}
+            btnSub={"karken.com"}
+          />
+          <Button
+            btnImg={"https://media.dash.org/wp-content/uploads/mobiletopup.png"}
+            btnTitle={"Karken"}
+            btnSub={"karken.com"}
+          />
+        </div>
       </div>
     </div>
   );

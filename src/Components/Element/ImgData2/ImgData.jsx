@@ -8,7 +8,8 @@ const ImgData2 = ({
   titleColor,
   paragraphColor,
   bgColor,
-  paragraph2
+  paragraph2,
+  className
 }) => {
   return (
     <div
@@ -33,14 +34,14 @@ const ImgData2 = ({
             {paragraph2}
           </p>
           <div>
-            <button className="cursor-pointer hover:border-sky-300 hover:text-sky-300 mt-5 text-white p-4 border border-1  border-white w-[200px]  rounded-sm font-semibold">
+            <button className={className}>
               {button}
             </button>
           </div>
         </div>
       </div>
       <div>
-        <img src={image} alt="" className="h-[550px]" />
+        <img src={image} alt="" className="h-[450px]" />
       </div>
     </div>
   );

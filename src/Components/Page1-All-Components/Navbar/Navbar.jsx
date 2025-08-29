@@ -18,7 +18,7 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 import "./Navbar.css";
 const navigation = [
-  { name: "Get Started" , current: false },
+  { name: "Get Started", current: false },
   { name: "Institutions", href: "", current: false },
   { name: "Developers", href: "", current: false },
   { name: "Community", href: "", current: false },
@@ -45,12 +45,17 @@ export default function Navbar() {
       title: "Buy Online",
     },
   ];
-
+ const menuItems2 = [
+   { name: "Dashboard", href: "/traders", current: true },
+   { name: "Team", href: "#", current: false },
+   { name: "Projects", href: "#", current: false },
+   { name: "Calendar", href: "#", current: false },
+ ];
   return (
     <div>
       <Disclosure
         as="nav"
-        className=" fixed font-semibold  w-full z-10 flex justify-center rounded-xl border-black bg-white lg:rounded-sm"
+        className=" fixed font-semibold  w-full z-50 flex justify-center rounded-xl border-black bg-white lg:rounded-sm"
       >
         <div className="shadow-md  mainSection absolute  bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 rounded-xl ">
           <div className="relative flex h-16 items-center justify-between ">
@@ -121,10 +126,34 @@ export default function Navbar() {
                         ))}
                       </ul>
                     </MenuList>
-                    <a href="" className="pt-3">
-                      {" "}
-                      Institution
-                    </a>
+                  </Menu>
+                  <Menu open={openMenu2} handler={setOpenMenu2} allowHover>
+                    <MenuHandler>
+                      <Button
+                        variant="text"
+                        className="border-none  items-center  gap-3 text-base font-normal capitalize tracking-normal"
+                      >
+                        <p className="font-semibold">Institution</p>
+                      </Button>
+                    </MenuHandler>
+                    <MenuList className="z-10 border-none  bg-white hidden w-[10rem] grid-cols-7overflow-visible lg:grid">
+                      <ul className="border-none pl-5 p-5 gap-3 font-semibold text-left col-span-4 flex w-full flex-col gap-1">
+                        {menuItems2.map(({ name }) => (
+                          <a href="/traders" key={name}>
+                            <MenuItem>
+                              <Typography
+                                variant="h6"
+                                color="blue-gray"
+                                className="mb-1"
+                              >
+                                {name}
+                              </Typography>
+                            </MenuItem>
+                          </a>
+                        ))}
+                      </ul>
+                    </MenuList>
+
                     <a href="" className="pt-3">
                       Developers
                     </a>

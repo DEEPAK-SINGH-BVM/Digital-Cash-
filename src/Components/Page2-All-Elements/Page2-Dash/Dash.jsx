@@ -44,14 +44,19 @@ const Dash = ({
             />
           </div>
         </div>
-        <DashButton button={"View all app"} />
+        <DashButton
+          button={"View all app"}
+          className={
+            "cursor-pointer hover:border-sky-300 hover:text-sky-300 mt-5 text-white p-4 border border-1  border-white w-[200px]  rounded-sm font-semibold"
+          }
+        />
       </div>
       {/* IMAGE   dashBox, dashText, paragraph */}
       <div>
         <img
           src={"https://www.dash.org/wp-content/uploads/home-phone-hires.png"}
           alt=""
-          className="h-[550px]"
+          className="h-[450px]"
         />
       </div>
     </div>
