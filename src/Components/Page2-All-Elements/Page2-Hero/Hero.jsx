@@ -7,12 +7,9 @@ export default function Hero() {
       <HeroComponents
         HeroImg={
           "https://media.dash.org/wp-content/uploads/Individuals3_optimised.jpg"
-
         }
         HeroTitle={"Digital money that’s better than cash."}
-        HeroParagraph={
-          "Open source projects are only as good as the community behind them."
-        }
+        HeroParagraph={"Dash is instant, global, and easy to use."}
       />
     </div>
   );

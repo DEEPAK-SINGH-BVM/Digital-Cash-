@@ -1,7 +1,8 @@
 
+
 export default function HeroComponents({ HeroImg, HeroTitle, HeroTitle2, HeroParagraph }) {
   return (
-    <div className=" Img-Div relative  bg-sky-900 font-Inter, sans-serif ">
+    <div className="Img-Div relative  bg-sky-900 font-Inter, sans-serif ">
       {/* <header className="h-[500px] absolute inset-x-0 top-0 ">
        
         <Dialog
@@ -55,20 +56,41 @@ export default function HeroComponents({ HeroImg, HeroTitle, HeroTitle2, HeroPar
           </DialogPanel>
         </Dialog>
       </header> */}
-      <div className="relative  Box">
+      {/* <div className="relative  Box">
         <div>
           <img
             src={HeroImg}
             alt="Hero"
-            className="w-full h-[700px]   object-scale-up opacity-70 banner"
+            className="w-full h-[700px] bg-contain bg-auto opacity-70 "
+          />
+        </div>
+        <div className="absolute inset-0 flex flex-col bg-scroll items-center justify-center text-center ">
+          <h2 className="text-5xl text-white font-bold italic">{HeroTitle}</h2>
+          <p className="mt-4 text-lg text-gray-200">{HeroParagraph}</p>
+        </div>
+      </div> */}
+      <div className="relative overflow-hidden Box h-[650px]">
+        <div>
+          <img
+            src={HeroImg}
+            alt="Hero"
+            className="w-full h-[980px] object-cover opacity-70 banner"
           />
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center ">
           <h2 className="text-5xl text-white font-bold italic">{HeroTitle}</h2>
           <h2 className="text-5xl text-white font-bold italic">{HeroTitle2}</h2>
-          <p className="mt-4 text-lg text-gray-200">{HeroParagraph}</p>
+          <p className="mt-3 text-lg text-white  font-semibold">{HeroParagraph}</p>
         </div>
       </div>
     </div>
   );
 }
+
+
+/*
+   
+  );
+}
+
+*/

@@ -1,14 +1,14 @@
 import React from "react";
 // import "";
-const ImgData2 = ({
+const ImgData1 = ({
   image,
   title,
+  title2,
   paragraph,
   button,
   titleColor,
   paragraphColor,
   bgColor,
-  paragraph2,
   className
 }) => {
   return (
@@ -18,20 +18,17 @@ const ImgData2 = ({
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
-            className={`sm:pt-20  mb-2 text-3xl font-bold tracking-tight  ${titleColor}`}
+            className={`sm:pt-20  mb-2 text-4xl font-bold tracking-tight  ${titleColor}`}
           >
             {title}
+            <br />
+            {title2}
           </h5>
-
+          
           <p
             class={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
           >
             {paragraph}
-          </p>
-          <p
-            class={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
-          >
-            {paragraph2}
           </p>
           <div>
             <button className={className}>
@@ -41,9 +38,9 @@ const ImgData2 = ({
         </div>
       </div>
       <div>
-        <img src={image} alt="" className="h-[450px]" />
+        <img src={image} alt="" className="h-[400px]" />
       </div>
     </div>
   );
 };
-export default ImgData2;
+export default ImgData1;

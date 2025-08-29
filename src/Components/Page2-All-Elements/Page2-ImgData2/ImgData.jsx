@@ -30,7 +30,7 @@ const ImgData2 = () => {
   return (
     <div>
       <div
-        className={` flex justify-center sm:pt-20 sm:gap-20  flex flex-col md:flex-row bg-sky-500`}
+        className={` flex justify-center sm:pt-20 sm:gap-14  flex flex-col md:flex-row bg-sky-500`}
       >
         <div class="flex flex-col justify-between p-4 leading-normal">
           <div>

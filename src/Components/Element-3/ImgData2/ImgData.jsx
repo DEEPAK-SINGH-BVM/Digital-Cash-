@@ -14,10 +14,10 @@ const ImgData2 = ({
   return (
     <div
       id="HowItWork"
-      className={` flex justify-center sm:pt-20 sm:gap-30  flex flex-col md:flex-row   ${bgColor}`}
+      className={` flex justify-center sm:pt-13 pb-13 sm:gap-30  flex flex-col md:flex-row  ${bgColor}`}
     >
       <div>
-        <img src={image} alt="" className="h-[550px]" />
+        <img src={image} alt="" className="h-[450px]" />
       </div>
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>
@@ -26,10 +26,10 @@ const ImgData2 = ({
           >
             {title}
           </h5>
-          <p class={`mb-3 w-[350px] text-md font-semibold ${paragraphColor}`}>
+          <p class={`mb-3 w-[300px] text-md font-semibold ${paragraphColor}`}>
             {paragraph}
           </p>
-          <p class={`mb-3 w-[350px] text-md font-semibold ${paragraphColor2}`}>
+          <p class={`mb-3 w-[300px] text-md font-semibold ${paragraphColor2}`}>
             {paragraph2}
           </p>
           <div>

@@ -27,6 +27,7 @@ const Main = () => {
       <Footer />
 
       {/* <MenuCustomList/> */}
+      {/* */}
     </div>
   );
 };

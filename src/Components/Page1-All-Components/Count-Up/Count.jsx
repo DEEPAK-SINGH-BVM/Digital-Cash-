@@ -13,7 +13,7 @@ const Count = () => {
       <div className=" bg-white   text-center p-18 font-semibold ">
         <p>Daily Active Addresses</p>
         <p className="text-[60px] font-thin text-sky-600">
-          {<CountUp start={0} end={54300} duration={2} delay={0} />} Billion +{" "}
+          {<CountUp start={0} end={54300} duration={2} delay={0} />} +{" "}
         </p>
       </div>
       <div className=" bg-white   text-center p-18 font-semibold ">

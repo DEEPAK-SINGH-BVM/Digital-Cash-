@@ -31,6 +31,8 @@ function classNames(...classes) {
 export default function Navbar() {
   const [openMenu, setOpenMenu] = React.useState(false);
   const [openMenu2, setOpenMenu2] = React.useState(false);
+  const [openMenu3, setOpenMenu3] = React.useState(false);
+  
   const menuItems = [
     {
       title: "Individual",
@@ -51,6 +53,13 @@ export default function Navbar() {
    { name: "Projects", href: "#", current: false },
    { name: "Calendar", href: "#", current: false },
  ];
+  const menuItems3 = [
+    { name: "Platform", href: "/", current: true },
+    { name: "Document", href: "#", current: false },
+    { name: "Contributing", href: "#", current: false },
+    
+    { name: "Roadmap", href: "#", current: false },
+  ];
   return (
     <div>
       <Disclosure
@@ -153,10 +162,34 @@ export default function Navbar() {
                         ))}
                       </ul>
                     </MenuList>
-
-                    <a href="" className="pt-3">
-                      Developers
-                    </a>
+                    
+                  </Menu>
+                  <Menu open={openMenu3} handler={setOpenMenu3} allowHover>
+                    <MenuHandler>
+                      <Button
+                        variant="text"
+                        className="border-none   items-center  gap-3 text-base font-normal capitalize tracking-normal"
+                      >
+                        <p className="font-semibold">Developers</p>
+                      </Button>
+                    </MenuHandler>
+                    <MenuList className="border-none  bg-white hidden w-[10rem] grid-cols-7overflow-visible lg:grid">
+                      <ul className="border-none pl-5 p-5 gap-3 font-semibold text-left col-span-4 flex w-full flex-col gap-1">
+                        {menuItems3.map(({ name }) => (
+                          <a href="/platforms" key={name}>
+                            <MenuItem>
+                              <Typography
+                                variant="h6"
+                                color="blue-gray"
+                                className="mb-1"
+                              >
+                                {name}
+                              </Typography>
+                            </MenuItem>
+                          </a>
+                        ))}
+                      </ul>
+                    </MenuList>
                     <a href="" className="pt-3">
                       {" "}
                       Community

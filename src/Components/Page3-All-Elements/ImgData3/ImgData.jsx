@@ -6,7 +6,7 @@ const ImgData3 = () => {
     <div>
       {/* */}
       <ImageData
-        image={"https://media.dash.org/wp-content/uploads/community-1.svg"}
+        image={"https://media.dash.org/wp-content/uploads/developers.svg"}
         bgColor={"bg-sky-600"}
         title={"Regulation and Compliance"}
         titleColor={"text-white"}

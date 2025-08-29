@@ -1,4 +1,4 @@
-import React from "react";
+//  import React from "react";
 // import "";
 const ImgData2 = ({
   image,
@@ -8,17 +8,19 @@ const ImgData2 = ({
   titleColor,
   paragraphColor,
   bgColor,
-  paragraph2,
   className
 }) => {
   return (
     <div
       className={` flex justify-center pb-20 sm:pt-15 sm:gap-30  flex flex-col md:flex-row  ${bgColor}`}
     >
+      <div>
+        <img src={image} alt="" className="h-[400px]" />
+      </div>
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
-            className={`sm:pt-20  mb-2 text-3xl font-bold tracking-tight  ${titleColor}`}
+            className={`sm:pt-20  mb-2 text-4xl font-bold tracking-tight  ${titleColor}`}
           >
             {title}
           </h5>
@@ -28,20 +30,10 @@ const ImgData2 = ({
           >
             {paragraph}
           </p>
-          <p
-            class={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
-          >
-            {paragraph2}
-          </p>
           <div>
-            <button className={className}>
-              {button}
-            </button>
+            <button className={className}>{button}</button>
           </div>
         </div>
-      </div>
-      <div>
-        <img src={image} alt="" className="h-[450px]" />
       </div>
     </div>
   );

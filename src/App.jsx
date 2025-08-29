@@ -1,5 +1,6 @@
 import Page2 from "./Main/Page2/Page2";
 import Page3 from "./Main/Page3/Page3";
+import Page4 from "./Main/Page4/Page4";
 import Main from "./Main/Page1/Page1";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/individual" element={<Page2 />} />
           <Route path="/traders" element={<Page3 />} />
+          <Route path="/platforms" element={<Page4 />} />
         </Routes>
       </BrowserRouter>
     </div>

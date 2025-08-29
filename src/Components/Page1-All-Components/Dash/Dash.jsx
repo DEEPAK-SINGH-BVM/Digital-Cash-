@@ -53,7 +53,7 @@ const dashDataDiv = [
 const Dash = () => {
   return (
     <>
-      <div id="Whats" class="BackGround grid   shadow-xs  md:grid-cols-2  ">
+      <div id="Whats" class="BackGround grid mt-10  shadow-xs  md:grid-cols-2  ">
         <figure class="flex flex-col items-center justify-center text-center rounded-t-lg md:rounded-t-none md:rounded-ss-lg">
           <blockquote class=" max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 text-white">
             <h1 class="text-4xl font-semibold text-white ">
