@@ -9,7 +9,7 @@ const Paragraph = ({
 }) => {
   return (
     <div>
-      <div class="flex flex-col  justify-between p-4 leading-normal">
+      <div class="flex flex-col  justify-between p-4 leading-normal pb-15 ">
         <div className="">
           <h5 className={paragraphStyle}>{ParagraphTitle}</h5>
           <div className="w-full flex justify-center">

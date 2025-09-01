@@ -36,7 +36,7 @@ const ImgData1 = ({
         </div>
       </div>
       <div>
-        <img src={image} alt="" className="h-[400px]" />
+        <img src={image} alt="" className="h-[400px] hidden sm:block" />
       </div>
     </div>
   );

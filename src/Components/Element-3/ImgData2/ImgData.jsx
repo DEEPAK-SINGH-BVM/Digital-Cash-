@@ -23,7 +23,7 @@ const ImgData2 = ({
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
-            className={`sm:pt-20  mb-2 text-5xl font-bold tracking-tight  ${titleColor}`}
+            className={`sm:pt-20  mb-2 text-xl font-bold tracking-tight  ${titleColor}`}
           >
             {title}
           </h5>

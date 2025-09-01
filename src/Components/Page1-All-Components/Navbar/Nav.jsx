@@ -16,7 +16,7 @@ import {
 } from "@material-tailwind/react";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
-import "./Navbar.css";
+import "./Nav.css";
 const navigation = [
   { name: "Get Started", current: false },
   { name: "Institutions", href: "", current: false },
@@ -79,7 +79,7 @@ export default function Navbar() {
         as="nav"
         className=" fixed font-semibold  w-full z-50 flex justify-center rounded-xl border-black bg-white lg:rounded-sm border-none"
       >
-        <div className="mainSection  shadow-md  absolute  bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 rounded-xl ">
+        <div className="mainSection2  shadow-md  absolute  bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 rounded-xl ">
           <div className="relative flex h-16 items-center justify-between ">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}

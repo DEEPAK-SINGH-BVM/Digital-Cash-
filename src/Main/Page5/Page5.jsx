@@ -1,18 +1,25 @@
 import React from "react";
 import Navbar from "../../Components/Page1-All-Components/Navbar/Nav";
-import ImgData2 from "../../Components/Page1-All-Components/ImgData2/ImgData2";
-import ImgData3 from "../../Components/Page1-All-Components/ImgData3/ImgData3";
-
 import Footer from "../../Components/Page1-All-Components/Footer/Footer";
 import ImgData1 from "../../Components/Page5-All-Elements/ImgData1/ImgData1";
+import ImgData2 from "../../Components/Page5-All-Elements/ImgData2/ImgData2";
+import ImgData3 from "../../Components/Page5-All-Elements/ImgData3/ImgData3";
+import ImgData4 from "../../Components/Page5-All-Elements/ImgData4/ImgData";
+import ImgData5 from "../../Components/Page5-All-Elements/ImgData5/ImgData5";
+import ImgData6 from "../../Components/Page5-All-Elements/ImgData6/ImgData6";
+import ImgData7 from "../../Components/Page5-All-Elements/ImgData7/ImgData7";
 
 const Main = () => {
   return (
     <div>
       <Navbar />
       <ImgData1 />
-      {/* <ImgData2 /> */}
-      {/* <ImgData3 /> */}
+      <ImgData2 />
+      <ImgData3 />
+      <ImgData4 />
+      <ImgData5 />
+      <ImgData6 />
+      <ImgData7 />
       <Footer />
     </div>
   );

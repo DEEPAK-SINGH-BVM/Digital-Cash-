@@ -48,3 +48,6 @@ export default defineConfig({
 
 //////////////
 Navbar (link , language , responsive)
+loop in ImgData
+Link add at the place of href
+  

@@ -1,0 +1,18 @@
+.bg-Color {
+  color: #fff;
+  background: #148fe2;
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #148fe2 0%,
+    #154fa2 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #148fe2 0%,
+    #154fa2 100%
+  );
+  background: radial-gradient(ellipse at center, #148fe2 0%, #154fa2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#148fe2', endColorstr='#154fa2',GradientType=1 );
+}
