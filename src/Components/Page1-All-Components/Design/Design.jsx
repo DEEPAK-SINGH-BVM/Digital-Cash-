@@ -7,9 +7,9 @@ const DesignBox = ({}) => {
     //     <div className="bg"></div>
     //   </div> */}
 
-      <div className="banner-shape container pull-up scroll-smooth ">
-        <div className="banner-size text-left bg bg-gradient-v  flex justify-center grid grid-cols-1 md:grid-cols-2  sm:grid-cols-1 lg:grid-cols-3 text-center  sm:pl-35">
-          <div className=" miniBox w-[200px] h-[100px] pt-9 ">
+      <div className="banner-shape container pull-up scroll-smooth  ">
+        <div className="banner-size text-left bg bg-gradient-v  flex justify-center grid grid-cols-1 md:grid-cols-2  sm:grid-cols-1 lg:grid-cols-3 text-center pl-15 sm:pl-35">
+          <div className=" miniBox w-[210px] h-[100px] pt-12 ">
             <a href="#Whats ">
               <h5 class="hover:text-sky-400  mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
                 Join
@@ -20,7 +20,7 @@ const DesignBox = ({}) => {
               </p>
             </a>
           </div>
-          <div className="w-[200px] h-[120px] pt-9">
+          <div className="w-[210px] h-[120px] pt-12">
             <a href="#HowItWork">
               <h5 class="hover:text-sky-400  mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
                 Learn Together
@@ -31,7 +31,7 @@ const DesignBox = ({}) => {
               </p>
             </a>
           </div>
-          <div className="w-[200px] h-[100px] pt-9">
+          <div className="w-[210px] h-[100px] pt-12">
             <a href="#theNetWorkFunds">
               <h5 class="hover:text-sky-400  mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
                 Share your voice

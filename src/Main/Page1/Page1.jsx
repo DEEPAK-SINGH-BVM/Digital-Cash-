@@ -25,9 +25,7 @@ const Main = () => {
       <ImgData3 />
       <Image />
       <Footer />
-
       {/* <MenuCustomList/> */}
-      {/* */}
     </div>
   );
 };

@@ -8,7 +8,11 @@ const DashComponent = ({ DashImage, DashText, DashParagraph, btn1, btn2 }) => {
         className={`bg-white  flex justify-center sm:pt-20 sm:gap-30  flex flex-col md:flex-row pt-10`}
       >
         <div>
-          <img src={DashImage} alt="" className="h-[400px]" />
+          <img
+            src={DashImage}
+            alt=""
+            className="h-[400px]  hidden sm:block"
+          />
         </div>
         <div class="flex flex-col justify-between p-4 leading-normal">
           <div>
@@ -17,7 +21,7 @@ const DashComponent = ({ DashImage, DashText, DashParagraph, btn1, btn2 }) => {
             >
               {DashText}
             </h5>
-            <p class={`mb-3 w-[300px] font-normal font-semibold`}>
+            <p class={`mb-3  w-[300px] font-normal font-semibold`}>
               {DashParagraph}
             </p>
             {/*  */}

@@ -3,6 +3,7 @@ import Page3 from "./Main/Page3/Page3";
 import Page4 from "./Main/Page4/Page4";
 import Main from "./Main/Page1/Page1";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router";
+import Page5 from "./Main/Page5/Page5";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/individual" element={<Page2 />} />
           <Route path="/traders" element={<Page3 />} />
           <Route path="/platforms" element={<Page4 />} />
+          <Route path="/BugBounty" element={<Page5 />} />
         </Routes>
       </BrowserRouter>
     </div>

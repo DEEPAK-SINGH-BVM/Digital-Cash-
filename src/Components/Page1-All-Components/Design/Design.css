@@ -32,7 +32,7 @@ html {
   width: 70%;
   height: 190%;
   border-radius: 200px 0 200px 0;
-  transform: skew(-5deg);
+  /* transform: skew(-25deg); */
   background: #0050b3;
   background: linear-gradient(
     360deg,

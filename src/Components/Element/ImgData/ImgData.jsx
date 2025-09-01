@@ -15,7 +15,7 @@ const ImgData = ({
       className={`BoxModel flex justify-center sm:pt-20 sm:gap-30  flex flex-col md:flex-row  pb-10 ${bgColor}`}
     >
       <div>
-        <img src={image} alt="" className="h-[550px]" />
+        <img src={image} alt="" className="h-[550px]  hidden md:block" />
       </div>
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>

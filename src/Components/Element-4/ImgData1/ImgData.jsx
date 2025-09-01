@@ -24,16 +24,14 @@ const ImgData1 = ({
             <br />
             {title2}
           </h5>
-          
+
           <p
             class={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
           >
             {paragraph}
           </p>
           <div>
-            <button className={className}>
-              {button}
-            </button>
+            <button className={className}>{button}</button>
           </div>
         </div>
       </div>

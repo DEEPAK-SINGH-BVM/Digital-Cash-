@@ -18,6 +18,9 @@ const ImgData6 = () => {
         paragraphColor={"text-white"}
         paragraphColor2={"text-white"}
         button={"Learn More"}
+        className={
+          "cursor-pointer hover:border-sky-400 hover:text-sky-400 mt-5 text-white p-4 border border-1  border-white w-[210px]  rounded-sm font-semibold"
+        }
       />
     </div>
   );

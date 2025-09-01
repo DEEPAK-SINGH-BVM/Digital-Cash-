@@ -34,14 +34,12 @@ const ImgData2 = ({
             {paragraph2}
           </p>
           <div>
-            <button className={className}>
-              {button}
-            </button>
+            <button className={className}>{button}</button>
           </div>
         </div>
       </div>
       <div>
-        <img src={image} alt="" className="h-[450px]" />
+        <img src={image} alt="" className="h-[450px]  hidden md:block" />
       </div>
     </div>
   );

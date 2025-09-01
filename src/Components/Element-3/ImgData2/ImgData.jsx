@@ -10,6 +10,7 @@ const ImgData2 = ({
   paragraphColor,
   paragraphColor2,
   bgColor,
+  className,
 }) => {
   return (
     <div
@@ -22,7 +23,7 @@ const ImgData2 = ({
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
-            className={`sm:pt-20  mb-2 text-4xl font-bold tracking-tight  ${titleColor}`}
+            className={`sm:pt-20  mb-2 text-5xl font-bold tracking-tight  ${titleColor}`}
           >
             {title}
           </h5>
@@ -33,9 +34,7 @@ const ImgData2 = ({
             {paragraph2}
           </p>
           <div>
-            <button className="cursor-pointer hover:border-sky-400 hover:text-sky-400 mt-5 text-white p-4 border border-1  border-white w-[210px]  rounded-sm font-semibold">
-              {button}
-            </button>
+            <button className={className}>{button}</button>
           </div>
         </div>
       </div>

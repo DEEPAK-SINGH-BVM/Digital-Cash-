@@ -4,7 +4,6 @@ import ImageData from "../../Element-3/ImgData2/ImgData";
 const ImgData2 = () => {
   return (
     <div>
-      {/* */}
       <ImageData
         image={"https://media.dash.org/wp-content/uploads/community-1.svg"}
         bgColor={"bg-blue-900"}
@@ -19,6 +18,9 @@ const ImgData2 = () => {
         paragraphColor={"text-white"}
         paragraphColor2={"text-white"}
         button={"Financial Service"}
+        className={
+          "cursor-pointer hover:border-sky-400 hover:text-sky-400 mt-5 text-white p-4 border border-1  border-white w-[210px]  rounded-sm font-semibold"
+        }
       />
     </div>
   );

@@ -45,3 +45,6 @@ export default defineConfig({
 =>  bg-color (bg-red-600)
 =>  text-color (text-red-400)
 =>  Transition (duration-100)
+
+//////////////
+Navbar (link , language , responsive)
