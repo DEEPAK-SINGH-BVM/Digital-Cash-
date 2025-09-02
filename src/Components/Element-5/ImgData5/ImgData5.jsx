@@ -30,7 +30,7 @@ const ImgData5 = ({
             <p className="font-bold pt-3">{subTitle2}</p>
             <p className="font-normal italic">{paragraph3}</p>
             <br />
-            <p className=" w-[300px]  font-semibold text-gray-700">
+            <p className=" w-[300px] font-semibold text-gray-700">
               {paragraph4}
             </p>
           </div>

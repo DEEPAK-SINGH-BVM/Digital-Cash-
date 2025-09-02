@@ -10,7 +10,6 @@ import ImgData2 from "../../Components/Page1-All-Components/ImgData2/ImgData2";
 import ImgData3 from "../../Components/Page1-All-Components/ImgData3/ImgData3";
 import Image from "../../Components/Page1-All-Components/image/img";
 import Footer from "../../Components/Page1-All-Components/Footer/Footer";
-import { MenuCustomList } from "../../Components/Page1-All-Components/Navbar/dropdown";
 const Main = () => {
   return (
     <div>

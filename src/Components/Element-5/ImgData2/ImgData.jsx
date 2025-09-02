@@ -1,44 +1,45 @@
 import React from "react";
+// import "";
 const ImgData2 = ({
   image,
   title,
   paragraph,
-  button,
   titleColor,
   paragraphColor,
   bgColor,
-  pointColor,
+  points,
+  pointsColor,
+  button,
 }) => {
-  const points = [
-    { name: "Mainnet" },
-    { name: "Dash Core Desktop Wallet" },
-    { name: "DashPay Android" },
-    { name: "DashPay iOS" },
-  ];
   return (
     <div
       id="HowItWork"
       className={`flex justify-center sm:pt-13 pb-13 sm:gap-30  flex flex-col md:flex-row  ${bgColor}`}
     >
-      <div className="pt-20">
-        <img src={image} alt="" className="h-[400px] hidden sm:block" />
-      </div>
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
-            className={`sm:pt-20  mb-2 text-4xl font-bold tracking-tight ${titleColor}`}
+            className={`sm:pt-20 w-[300px] mb-2 text-4xl font-bold tracking-tight ${titleColor}`}
           >
             {title}
           </h5>
-          <p class={` mb-3 w-[300px] text-md font-semibold  ${paragraphColor}`}>
+          <p class={` mb-3 w-[300px] text-md font-semibold ${paragraphColor}`}>
             {paragraph}
           </p>
-          <div>
-            {points.map(({ name }) => (
-              <li key={name} className="">{name}</li>
+          <ul className="mb-4 list-disc text-left pl-5">
+            {points.map((point, index) => (
+              <li
+                key={index}
+                className={`sm:w-[400px] w-[280px]  ${pointsColor}`}
+              >
+                {point}
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
+      </div>
+      <div className="pt-20">
+        <img src={image} alt="" className="h-[400px] hidden sm:block" />
       </div>
     </div>
   );

@@ -24,23 +24,22 @@ import "./Nav.css";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = React.useState(false);
-
   const [openMenu2, setOpenMenu2] = React.useState(false);
   const [openMenu3, setOpenMenu3] = React.useState(false);
   const [openMenu4, setOpenMenu4] = React.useState(false);
   const [openMenu5, setOpenMenu5] = React.useState(false);
-
+// changes
   return (
     <div>
       <Disclosure
         as="nav"
         className="z-50 fixed font-semibold w-full z-50 flex justify-center rounded-xl border-black bg-white lg:rounded-sm border-none"
       >
-        <div className="mainSection2 shadow-md absolute bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 rounded-xl">
+        <div className="new shadow-md absolute bg-white mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 rounded-xl">
           <div className="relative flex h-16 items-center justify-between ">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-black focus:outline-2 focus:-outline-offset-1 focus:outline-indigo-500">
-                <span className="sr-only">Open main menu</span>
+              
                 <Bars3Icon className="block size-6 group-data-open:hidden" />
                 <XMarkIcon className="hidden size-6 group-data-open:block" />
               </DisclosureButton>
@@ -375,7 +374,6 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-
         <DisclosurePanel className="sm:hidden mainSection absolute bg-white pt-10 border-none">
           <div className="space-y-1 px-2 pt-2 pb-3">
             <Disclosure>
@@ -388,18 +386,18 @@ export default function Navbar() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="pl-5">
-                    <a href="/individual" className="block px-3 py-2 text-sm">
+                    <Link to="/individual" className="block px-3 py-2 text-sm">
                       Individual
-                    </a>
-                    <a href="/business" className="block px-3 py-2 text-sm">
-                      Businesses
-                    </a>
-                    <a href="/downloads" className="block px-3 py-2 text-sm">
+                    </Link>
+                    <Link to="" className="block px-3 py-2 text-sm">
+                      Business
+                    </Link>
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Downloads
-                    </a>
-                    <a href="/buy" className="block px-3 py-2 text-sm">
+                    </Link>
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Buy Online
-                    </a>
+                    </Link>
                   </DisclosurePanel>
                 </>
               )}
@@ -415,18 +413,19 @@ export default function Navbar() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="pl-5">
-                    <a href="/traders" className="block px-3 py-2 text-sm">
+                    <Link to="/traders" className="block px-3 py-2 text-sm">
                       Dashboard
-                    </a>
-                    <a href="/team" className="block px-3 py-2 text-sm">
+                    </Link>
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Team
-                    </a>
-                    <a href="/projects" className="block px-3 py-2 text-sm">
+                    </Link>
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Projects
-                    </a>
-                    <a href="/calendar" className="block px-3 py-2 text-sm">
+                    </Link>
+
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Calendar
-                    </a>
+                    </Link>
                   </DisclosurePanel>
                 </>
               )}
@@ -442,18 +441,20 @@ export default function Navbar() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="pl-5">
-                    <a href="/platform" className="block px-3 py-2 text-sm">
+                    <Link to="/platforms" className="block px-3 py-2 text-sm">
                       Platform
-                    </a>
-                    <a href="/forum" className="block px-3 py-2 text-sm">
+                    </Link>
+
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Forum
-                    </a>
-                    <a href="/blog" className="block px-3 py-2 text-sm">
+                    </Link>
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Blog
-                    </a>
-                    <a href="/mining" className="block px-3 py-2 text-sm">
+                    </Link>
+
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Mining
-                    </a>
+                    </Link>
                   </DisclosurePanel>
                 </>
               )}
@@ -469,18 +470,18 @@ export default function Navbar() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="pl-5">
-                    <a href="/BugBounty" className="block px-3 py-2 text-sm">
+                    <Link to="/BugBounty" className="block px-3 py-2 text-sm">
                       Bug Bounty Program
-                    </a>
-                    <a href="/docs" className="block px-3 py-2 text-sm">
+                    </Link>
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Document
-                    </a>
-                    <a href="/contribute" className="block px-3 py-2 text-sm">
+                    </Link>
+                    <Link to="" className="block px-3 py-2 text-sm">
                       Contributing
-                    </a>
-                    <a href="/roadmap" className="block px-3 py-2 text-sm">
-                      Roadmap
-                    </a>
+                    </Link>
+                    <Link to="" className="block px-3 py-2 text-sm">
+                      RoadMap
+                    </Link>
                   </DisclosurePanel>
                 </>
               )}
@@ -518,3 +519,32 @@ export default function Navbar() {
     </div>
   );
 }
+/*
+       <DisclosurePanel >
+        <div >
+            <DisclosureButton>
+            </DisclosureButton>
+        </div>
+      </DisclosurePanel>
+
+   <DisclosurePanel className="sm:hidden">
+        <div className="space-y-1 px-2 pt-2 pb-3">
+          {navigation.map((item) => (
+            <DisclosureButton
+              key={item.name}
+              as="a"
+              href={item.href}
+              aria-current={item.current ? "page" : undefined}
+              className={classNames(
+                item.current
+                  ? "bg-gray-950/50 text-white"
+                  : "text-gray-300 hover:bg-white/5 hover:text-white",
+                "block rounded-md px-3 py-2 text-base font-medium"
+              )}
+            >
+              {item.name}
+            </DisclosureButton>
+          ))}
+        </div>
+      </DisclosurePanel>
+*/

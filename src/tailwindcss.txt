@@ -47,5 +47,3 @@ export default defineConfig({
 =>  Transition (duration-100)
 
 //////////////
-X icon in navbar 
-points dynamic

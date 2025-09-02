@@ -24,7 +24,6 @@ import "./Navbar.css";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = React.useState(false);
-
   const [openMenu2, setOpenMenu2] = React.useState(false);
   const [openMenu3, setOpenMenu3] = React.useState(false);
   const [openMenu4, setOpenMenu4] = React.useState(false);
@@ -499,17 +498,89 @@ export default function Navbar() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="pl-5">
-                    <a href="/" className="block px-3 py-2 text-sm">
-                      English
+                    <a href="/">
+                      <MenuItem className="border-none">
+                        <Typography variant="h6" className="flex gap-2 ">
+                          <img
+                            class="w-10 h-6 rounded-full"
+                            src="https://www.dash.org/wp-content/uploads/flags/USFlag.svg"
+                            alt="Rounded avatar"
+                          ></img>
+                          English{" "}
+                        </Typography>
+                      </MenuItem>
                     </a>
-                    <a href="/" className="block px-3 py-2 text-sm">
-                      Hindi
+                    <a href="/">
+                      <MenuItem>
+                        <Typography variant="h6" className="flex gap-2  pt-3">
+                          <img
+                            class="w-10 h-6 rounded-full"
+                            src="https://www.dash.org/wp-content/uploads/flags/german.svg"
+                            alt="Rounded avatar"
+                          ></img>
+                          Deutsch
+                        </Typography>
+                      </MenuItem>
                     </a>
-                    <a href="/" className="block px-3 py-2 text-sm">
-                      Deutsch
+                    <a href="/">
+                      <MenuItem>
+                        <Typography variant="h6" className="flex gap-2  pt-3">
+                          <img
+                            class="w-10 h-6 rounded-full"
+                            src="https://www.dash.org/wp-content/uploads/flags/greek.svg"
+                            alt="Rounded avatar"
+                          ></img>
+                          Ελληνικά
+                        </Typography>
+                      </MenuItem>
                     </a>
-                    <a href="/" className="block px-3 py-2 text-sm">
-                      Ελληνικά
+                    <a href="/">
+                      <MenuItem>
+                        <Typography variant="h6" className="flex gap-2  pt-3">
+                          <img
+                            class="w-10 h-6 rounded-full"
+                            src="	https://www.dash.org/wp-content/uploads/flags/spanish.svg"
+                            alt="Rounded avatar"
+                          ></img>
+                          Español
+                        </Typography>
+                      </MenuItem>
+                    </a>
+                    <a href="/">
+                      <MenuItem>
+                        <Typography variant="h6" className="flex gap-2  pt-3">
+                          <img
+                            class="w-10 h-6 rounded-full"
+                            src="	https://www.dash.org/wp-content/uploads/flags/filipino.svg"
+                            alt="Rounded avatar"
+                          ></img>
+                          Filipino
+                        </Typography>
+                      </MenuItem>
+                    </a>
+                    <a href="/">
+                      <MenuItem>
+                        <Typography variant="h6" className="flex gap-2  pt-3">
+                          <img
+                            class="w-10 h-6 rounded-full"
+                            src="	https://www.dash.org/wp-content/uploads/flags/french.svg"
+                            alt="Rounded avatar"
+                          ></img>
+                          Français
+                        </Typography>
+                      </MenuItem>
+                    </a>
+                    <a href="/">
+                      <MenuItem>
+                        <Typography variant="h6" className="flex gap-2  pt-3">
+                          <img
+                            class="w-10 h-6 rounded-full"
+                            src="https://www.dash.org/wp-content/uploads/flags/italian.svg"
+                            alt="Rounded avatar"
+                          ></img>
+                          Italiano
+                        </Typography>
+                      </MenuItem>
                     </a>
                   </DisclosurePanel>
                 </>

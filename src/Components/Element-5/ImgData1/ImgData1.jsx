@@ -1,23 +1,17 @@
+
 import React from "react";
 // import "";
 const ImgData1 = ({
   image,
   title,
   paragraph,
-  button,
   titleColor,
   paragraphColor,
   bgColor,
-  className,
-  point1,
-  point2,
+  points,
+  pointsColor,
+  button,
 }) => {
-  const points = [
-    { name: "Mainnet" },
-    { name: "Dash Core Desktop Wallet" },
-    { name: "DashPay Android" },
-    { name: "DashPay iOS" },
-  ];
   return (
     <div
       id="HowItWork"
@@ -29,58 +23,27 @@ const ImgData1 = ({
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
-            className={`sm:pt-20  mb-2 text-4xl font-bold tracking-tight ${titleColor}`}
+            className={`sm:pt-20 w-[300px] mb-2 text-4xl font-bold tracking-tight ${titleColor}`}
           >
             {title}
           </h5>
           <p class={` mb-3 w-[300px] text-md font-semibold ${paragraphColor}`}>
             {paragraph}
           </p>
-          {points.map(({ name }) => (
-            <li key={name} className={points}>
-              {name}
-            </li>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-};
-export default ImgData1;
-/*
-  
-import React from "react";
-// import "";
-const ImgData1 = ({
-}) => {
-  return (
-    <div
-      id="HowItWork"
-      className={`flex justify-center sm:pt-13 pb-13 sm:gap-30  flex flex-col md:flex-row bg-white`}
-    >
-      <div className="pt-20">
-        <img
-          src="https://media.dash.org/wp-content/uploads/bugbounty.svg"
-          alt=""
-          className="h-[400px]"
-        />
-      </div>
-      <div class="flex flex-col justify-between p-4 leading-normal">
-        <div>
-          <h5 className={`sm:pt-20  mb-2 text-5xl font-bold tracking-tight`}>
-            Bug
-          </h5>
-          <p class={` mb-3 w-[300px] text-md font-semibold `}>
-            Lorem ipsum dolor sit
-          </p>
-          <li>point1</li>
-          <li>point2</li>
-          <li>point3</li>
-          <li>point4</li>
-          <li>point5</li>
+          <ul className="mb-4 list-disc text-left pl-5">
+            {points.map((point, index) => (
+              <li
+                key={index}
+                className={`sm:w-[400px] w-[280px] ${pointsColor}`}
+              >
+                {point}
+              </li>
+            ))}
+          </ul>
+
           <div>
-            <button className="text-center text-sky-500 pt-75 md:pt-10">
-              Click
+            <button className="mt-15 cursor-pointer border-sky-600 text-white hover:border-sky-700 hover:bg-sky-600 mt-5 p-3 border border-1  w-[200px] bg-sky-500  rounded-sm font-semibold">
+              {button}
             </button>
           </div>
         </div>
@@ -89,5 +52,3 @@ const ImgData1 = ({
   );
 };
 export default ImgData1;
-
-*/
