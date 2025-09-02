@@ -23,6 +23,9 @@ const ImgData1 = ({
       id="HowItWork"
       className={`flex justify-center sm:pt-13 pb-13 sm:gap-30  flex flex-col md:flex-row  ${bgColor}`}
     >
+      <div className="pt-20">
+        <img src={image} alt="" className="h-[400px] hidden sm:block" />
+      </div>
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
@@ -34,12 +37,11 @@ const ImgData1 = ({
             {paragraph}
           </p>
           {points.map(({ name }) => (
-            <li key={name} className={points}>{name}</li>
+            <li key={name} className={points}>
+              {name}
+            </li>
           ))}
         </div>
-      </div>
-      <div className="pt-20">
-        <img src={image} alt="" className="h-[400px] hidden sm:block" />
       </div>
     </div>
   );

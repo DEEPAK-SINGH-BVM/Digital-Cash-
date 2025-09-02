@@ -52,8 +52,8 @@ const ImgData7 = () => {
   return (
     <div className="flex justify-center item-center flex-wrap">
       <ImageData5
-        Img={"https://media.dash.org/wp-content/uploads/severity_high.svg"}
-        title={"Severity High"}
+        Img={"https://media.dash.org/wp-content/uploads/priority_low.svg"}
+        title={"Priority High"}
         subTitle={"30 Points Could cause a loss of funds"}
         paragraph1={"Without a device access"}
         paragraph2={
@@ -61,22 +61,18 @@ const ImgData7 = () => {
         }
       />
       <ImageData5
-        Img={"https://media.dash.org/wp-content/uploads/severity_medium.svg"}
-        title={"Severity Medium"}
+        Img={"https://media.dash.org/wp-content/uploads/priority_medium.svg"}
+        title={"Priority Medium"}
         subTitle={"20 Points Prevents the use or receipt of funds"}
         paragraph1={"Without a device access"}
         paragraph2={
           "Cannot sync with the chain, persistent error when trying to send Dash, cannot receive a transaction that was successfully submitted to the network"
         }
-        subTitle2={"Breach of privacy"}
-        paragraph3={"With device access"}
-        paragraph4={
-          "Private key exposure, recovery phrase exposure, pin code attack/bypass, balance or transaction visibility without the required authentication"
-        }
+
       />
       <ImageData5
-        Img={"	https://media.dash.org/wp-content/uploads/severity_low.svg"}
-        title={"Severity Low"}
+        Img={"https://media.dash.org/wp-content/uploads/priority_low.svg"}
+        title={"Priority Low"}
         subTitle={"30 Points Could cause a loss of funds"}
         paragraph1={"Without a device access"}
         paragraph2={

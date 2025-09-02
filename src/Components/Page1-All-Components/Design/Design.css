@@ -20,7 +20,7 @@ html {
 .banner-shape.pull-up {
   margin-top: -100px;
   position: relative;
-  z-index: 3;
+  z-index: 0;
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;

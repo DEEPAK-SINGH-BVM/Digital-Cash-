@@ -47,7 +47,5 @@ export default defineConfig({
 =>  Transition (duration-100)
 
 //////////////
-Navbar (link , language , responsive)
-loop in ImgData
-Link add at the place of href
-  
+X icon in navbar 
+points dynamic

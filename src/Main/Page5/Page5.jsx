@@ -8,6 +8,7 @@ import ImgData4 from "../../Components/Page5-All-Elements/ImgData4/ImgData";
 import ImgData5 from "../../Components/Page5-All-Elements/ImgData5/ImgData5";
 import ImgData6 from "../../Components/Page5-All-Elements/ImgData6/ImgData6";
 import ImgData7 from "../../Components/Page5-All-Elements/ImgData7/ImgData7";
+import ImgData8 from "../../Components/Page5-All-Elements/ImgData8/ImgData8";
 
 const Main = () => {
   return (
@@ -20,6 +21,7 @@ const Main = () => {
       <ImgData5 />
       <ImgData6 />
       <ImgData7 />
+      <ImgData8/>
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import ImageData2 from "../../Element/ImgData2/ImgData";
 // import "./ImgData2.css";
 const ImgData2 = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-80 sm:pt-35">
       <ImageData2
         bgColor={"bg-white"}
         image={"https://media.dash.org/wp-content/uploads/become-voting-1.svg"}
@@ -20,9 +20,7 @@ const ImgData2 = () => {
         className={
           "cursor-pointer border-sky-600 hover:border-sky-300 hover:text-sky-300 mt-5 text-sky-600 p-4 border border-1  w-[200px]  rounded-sm font-semibold"
         }
-        
       />
-      
     </div>
   );
 };

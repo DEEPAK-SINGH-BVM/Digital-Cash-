@@ -9,9 +9,6 @@ const ImgData3 = ({
   paragraphColor,
   bgColor,
   pointsColor,
-  className,
-  point1,
-  point2,
 }) => {
   const points = [
     { name: "Mainnet" },
@@ -22,7 +19,7 @@ const ImgData3 = ({
   return (
     <div
       id="HowItWork"
-      className={`bg-Color flex justify-center sm:pt-13 pb-13 sm:gap-30  flex flex-col md:flex-row ${bgColor}`}
+      className={`bg-ColorComponents1 flex justify-center sm:pt-13 pb-13 sm:gap-30  flex flex-col md:flex-row ${bgColor}`}
     >
       <div class="flex flex-col justify-between p-4 leading-normal">
         <div>

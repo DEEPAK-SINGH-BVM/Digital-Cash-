@@ -9,7 +9,7 @@ const ImgData2 = ({
   paragraphColor,
   bgColor,
   paragraph2,
-  className
+  className,
 }) => {
   return (
     <div
@@ -22,7 +22,6 @@ const ImgData2 = ({
           >
             {title}
           </h5>
-
           <p
             class={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
           >

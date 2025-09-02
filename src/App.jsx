@@ -4,6 +4,7 @@ import Page4 from "./Main/Page4/Page4";
 import Main from "./Main/Page1/Page1";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import Page5 from "./Main/Page5/Page5";
+import PageNotFound from "./Main/PageNotFound/PageNotFound";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/traders" element={<Page3 />} />
           <Route path="/platforms" element={<Page4 />} />
           <Route path="/BugBounty" element={<Page5 />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
