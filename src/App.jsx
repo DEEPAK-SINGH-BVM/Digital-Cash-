@@ -6,13 +6,20 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import Page5 from "./Main/Page5/Page5";
 import PageNotFound from "./Main/PageNotFound/PageNotFound";
 import Navbar from "./Components/Page1-All-Components/Navbar/Navbar";
-import RouterPage from "./Main/Route/Route"
 function App() {
   return (
+    // <div>
+    //   <Main />
+    // </div>
     <div>
       <BrowserRouter>
-          <RouterPage/>
+        <Navbar />
         <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/individual" element={<Page2 />} />
+          <Route path="/traders" element={<Page3 />} />
+          <Route path="/platforms" element={<Page4 />} />
+          <Route path="/BugBounty" element={<Page5 />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
