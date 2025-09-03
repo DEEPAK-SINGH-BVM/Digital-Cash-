@@ -23,8 +23,9 @@
 import React from "react";
 
 import Button from "../../Elements-2/Button2/Button";
-import DashBox from "../../Elements-2/DashBox/Dash";
+
 import "./ImgData2.css"
+import DashBox from "../../Elements-2/DashBox/DashBox";
 // import "";
 const ImgData2 = () => {
   return (

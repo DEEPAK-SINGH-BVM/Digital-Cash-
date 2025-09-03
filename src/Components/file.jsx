@@ -29,3 +29,19 @@ const PageNotFound = () => {
 };
 
 export default PageNotFound;
+/*
+<html>
+<head>
+<script>
+function goBack() {
+  window.history.back()
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Back" onclick="goBack()">
+
+</body>
+</html>
+*/

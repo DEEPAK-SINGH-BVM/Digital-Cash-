@@ -1,6 +1,6 @@
 import React from "react";
 import "./Dash.css";
-import DashBox from "../../Elements-2/DashBox/Dash";
+import DashBox from "../../Elements-2/DashBox/DashBox";
 import DashButton from "../../Elements-2/Button/Button";
 // import "";
 const Dash = ({
