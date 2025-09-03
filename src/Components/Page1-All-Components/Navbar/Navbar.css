@@ -1,6 +1,9 @@
-.mainSection{
+/* .mainSection{
     margin-top: -640px;
     width: 100%;
-    /* margin-left: 30%; */
-}
+} */
+.mainSection {
+    margin: 10px;   
+    width: 100%;
+  }
 @import "tailwindcss" 

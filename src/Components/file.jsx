@@ -69,3 +69,32 @@ const ImageData1 = ({
 };
 
 export default ImageData1;
+
+// import React from "react";
+// import { useNavigate } from "react-router-dom";
+
+// const PageNotFound = () => {
+//   const navigate = useNavigate();
+
+//   const goBack = () => {
+//     navigate(-1); 
+//   };
+
+//   return (
+//     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+//       <img
+//         src="https://www.cloudns.net/blog/wp-content/uploads/2023/10/Error-404-Page-Not-Found.png"
+//         alt="404 Page Not Found"
+//         className="max-w-full h-auto mb-6"
+//       />
+//       <button
+//         onClick={goBack}
+//         className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-200"
+//       >
+//         Go Back
+//       </button>
+//     </div>
+//   );
+// };
+
+// export default PageNotFound;

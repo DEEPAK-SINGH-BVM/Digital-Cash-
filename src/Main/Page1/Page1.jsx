@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../Components/Page1-All-Components/Navbar/Navbar";
+// import Navbar from "../../Components/Page1-All-Components/Navbar/Navbar";
 import Hero from "../../Components/Page1-All-Components/Hero/Hero";
 import Box from "../../Components/Page1-All-Components/Box-Model/Box";
 import DesignBox from "../../Components/Page1-All-Components/Design/Design";
@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <div>
       <Hero />
-      <Navbar />
+      {/* <Navbar /> */}
       <DesignBox />
       <Box />
       <Dash />
