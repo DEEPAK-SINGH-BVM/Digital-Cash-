@@ -4,7 +4,7 @@ const Image = () => {
   return (
     <div>
       <div className="text-center text-sky-500 pt-20">
-        <div class="flex flex-col  justify-between p-4 leading-normal">
+        <div className="flex flex-col  justify-between p-4 leading-normal">
           <div>
             <h5 className="sm:pt-20  mb-2 md:text-4xl font-bold tracking-tight  ">
               Dash Ecosystem Overview

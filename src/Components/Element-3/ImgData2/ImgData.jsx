@@ -20,17 +20,17 @@ const ImgData2 = ({
       <div>
         <img src={image} alt="" className="h-[400px]  hidden sm:block" />
       </div>
-      <div class="flex flex-col justify-between p-4 leading-normal">
+      <div className="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
             className={`sm:pt-20  mb-2 text-4xl font-bold tracking-tight w-[300px]  ${titleColor}`}
           >
             {title}
           </h5>
-          <p class={`mb-3 w-[300px] text-md font-semibold ${paragraphColor}`}>
+          <p className={`mb-3 w-[300px] text-md font-semibold ${paragraphColor}`}>
             {paragraph}
           </p>
-          <p class={`mb-3 w-[300px] text-md font-semibold ${paragraphColor2}`}>
+          <p className={`mb-3 w-[300px] text-md font-semibold ${paragraphColor2}`}>
             {paragraph2}
           </p>
           <div>

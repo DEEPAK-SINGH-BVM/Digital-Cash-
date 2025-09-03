@@ -20,7 +20,7 @@ const Dash = ({
       <div className="hidden sm:block">
         <h1 className="text-white text-4xl font-bold pb-5">Get the App</h1>
         <div className="flex ">
-          <div class="flex  flex-row gap-10  justify-center text-center p-4 leading-normal">
+          <div className="flex  flex-row gap-10  justify-center text-center p-4 leading-normal">
             <DashBox
               dashImg={
                 "https://media.dash.org/wp-content/uploads/appicon-desktop-2.svg"

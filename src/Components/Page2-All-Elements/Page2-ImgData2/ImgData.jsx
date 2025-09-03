@@ -32,7 +32,7 @@ const ImgData2 = () => {
       <div
         className={` flex justify-center sm:pt-20 sm:gap-14  flex flex-col md:flex-row bg-sky-500`}
       >
-        <div class="flex flex-col justify-between p-4 leading-normal">
+        <div className="flex flex-col justify-between p-4 leading-normal">
           <div>
             <h5
               className={`sm:pt-20  mb-2 text-3xl font-bold tracking-tight  text-white`}
@@ -40,7 +40,7 @@ const ImgData2 = () => {
               Get Going!
             </h5>
 
-            <p class={`mb-2 sm:w-[340px] font-normal font-semibold text-white`}>
+            <p className={`mb-2 sm:w-[340px] font-normal font-semibold text-white`}>
               Grab a coffee, buy a plane ticket, or pay your phone bill. Dash is
               growing and is accepted by new businesses every day.
             </p>
@@ -105,7 +105,7 @@ const ImgData2 = () => {
       </div>
       {/* <hr className="HrColor " /> */}
       <div className="bg-sky-500 pt-20">
-        <hr class="w-[60%] h-0.5 mx-auto  bg-white  rounded-sm border-0 "></hr>
+        <hr className="w-[60%] h-0.5 mx-auto  bg-white  rounded-sm border-0 "></hr>
       </div>
       <div className="flex justify-center pt-12 pb-12 bg-sky-500 ">
         {/* <hr className=" " /> */}

@@ -53,17 +53,17 @@ const dashDataDiv = [
 const Dash = () => {
   return (
     <>
-      <div id="Whats" class="BackGround grid mt-10  shadow-xs  md:grid-cols-2  ">
-        <figure class="flex flex-col items-center justify-center text-center rounded-t-lg md:rounded-t-none md:rounded-ss-lg">
-          <blockquote class=" max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 text-white">
-            <h1 class="text-4xl font-semibold text-white ">
+      <div id="Whats" className="BackGround grid mt-10  shadow-xs  md:grid-cols-2  ">
+        <figure className="flex flex-col items-center justify-center text-center rounded-t-lg md:rounded-t-none md:rounded-ss-lg">
+          <blockquote className=" max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 text-white">
+            <h1 className="text-4xl font-semibold text-white ">
               Whats New with Dash
             </h1>
           </blockquote>
         </figure>
-        <figure class="flex flex-col items-center justify-center lg:items-start text-center md:rounded-se-lg lg:mt-15 sm:pt-10  ">
+        <figure className="flex flex-col items-center justify-center lg:items-start text-center md:rounded-se-lg lg:mt-15 sm:pt-10  ">
           {/* changes pt-10 */}
-          <figcaption class="flex items-center justify-center">
+          <figcaption className="flex items-center justify-center">
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-10 text-center grid-item-container ">
               {dashData.map((item, index) => (
                 <DashBox key={index} image={item.image} text={item.text} />
@@ -71,22 +71,22 @@ const Dash = () => {
             </div>
           </figcaption>
         </figure>
-        <figure class="flex flex-col items-center justify-center  text-start  md:rounded-es-lg md:border-b-0  ">
-          <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 text-white">
-            <h1 class="text-4xl font-semibold text-white dark:text-white">
+        <figure className="flex flex-col items-center justify-center  text-start  md:rounded-es-lg md:border-b-0  ">
+          <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 text-white">
+            <h1 className="text-4xl font-semibold text-white dark:text-white">
               Find Your Fit
             </h1>
-            <p class="my-4 w-[300px] text-left">
+            <p className="my-4 w-[300px] text-left">
               Join us online and in your community! Dash users discuss ideas,
               share their skills, and work together to fix payments for
               everyone.
             </p>
           </blockquote>
         </figure>
-        <figure class="flex flex-col items-center justify-center lg:items-start border-gray-200 rounded-b-lg md:rounded-se-lg  ">
-          <figcaption class="flex items-center justify-center ">
-            <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 text-white">
-              <figcaption class="flex items-center justify-center ">
+        <figure className="flex flex-col items-center justify-center lg:items-start border-gray-200 rounded-b-lg md:rounded-se-lg  ">
+          <figcaption className="flex items-center justify-center ">
+            <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 text-white">
+              <figcaption className="flex items-center justify-center ">
                 <div className="grid grid-cols-1 sm:grid-cols-4 gap-10 text-center grid-item-container">
                   {dashDataDiv.map((item, index) => (
                     <DashBox key={index} image={item.image} text={item.text} />

@@ -84,7 +84,7 @@ const ImgData6 = () => {
         }
       />
       <div className="bg-sky-500 pt-0 ">
-        <hr class="w-[60%] h-0.5 mx-auto  bg-white  rounded-sm border-0 "></hr>
+        <hr className="w-[60%] h-0.5 mx-auto  bg-white  rounded-sm border-0 "></hr>
       </div>
     </div>
   );

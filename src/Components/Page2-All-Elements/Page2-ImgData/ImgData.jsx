@@ -24,14 +24,14 @@ const ImgData = ({
             className="h-[400px]"
           />
         </div>
-        <div class="flex flex-col justify-between p-4 leading-normal">
+        <div className="flex flex-col justify-between p-4 leading-normal">
           <div>
             <h5
               className={`text-sky-600 text-5xl font-bold sm:pt-20  mb-2 text-3xl font-bold tracking-tight `}
             >
               Get Dash
             </h5>
-            <p class={`mb-3 w-[300px] font-normal font-semibold`}>
+            <p className={`mb-3 w-[300px] font-normal font-semibold`}>
               Dash is easy to buy or receive online, from friends, or at an ATM
               near you.
             </p>
@@ -61,7 +61,7 @@ const ImgData = ({
         btn2={"Find an ATM"}
       />
       <div className="bg-white pt-20">
-        <hr class="w-[60%] h-0.5 mx-auto  bg-sky-500  rounded-sm border-0 "></hr>
+        <hr className="w-[60%] h-0.5 mx-auto  bg-sky-500  rounded-sm border-0 "></hr>
       </div>
       {/* <hr /> */}
       <div className="flex justify-center pt-12 pb-12">

@@ -287,7 +287,7 @@ export default function Navbar() {
                         <MenuItem className="border-none">
                           <Typography variant="h6" className="flex gap-2 ">
                             <img
-                              class="w-10 h-6 rounded-full"
+                              className="w-10 h-6 rounded-full"
                               src="https://www.dash.org/wp-content/uploads/flags/USFlag.svg"
                               alt="Rounded avatar"
                             ></img>
@@ -299,7 +299,7 @@ export default function Navbar() {
                         <MenuItem>
                           <Typography variant="h6" className="flex gap-2  pt-3">
                             <img
-                              class="w-10 h-6 rounded-full"
+                              className="w-10 h-6 rounded-full"
                               src="https://www.dash.org/wp-content/uploads/flags/german.svg"
                               alt="Rounded avatar"
                             ></img>
@@ -311,7 +311,7 @@ export default function Navbar() {
                         <MenuItem>
                           <Typography variant="h6" className="flex gap-2  pt-3">
                             <img
-                              class="w-10 h-6 rounded-full"
+                              className="w-10 h-6 rounded-full"
                               src="https://www.dash.org/wp-content/uploads/flags/greek.svg"
                               alt="Rounded avatar"
                             ></img>
@@ -323,7 +323,7 @@ export default function Navbar() {
                         <MenuItem>
                           <Typography variant="h6" className="flex gap-2  pt-3">
                             <img
-                              class="w-10 h-6 rounded-full"
+                              className="w-10 h-6 rounded-full"
                               src="	https://www.dash.org/wp-content/uploads/flags/spanish.svg"
                               alt="Rounded avatar"
                             ></img>
@@ -335,7 +335,7 @@ export default function Navbar() {
                         <MenuItem>
                           <Typography variant="h6" className="flex gap-2  pt-3">
                             <img
-                              class="w-10 h-6 rounded-full"
+                              className="w-10 h-6 rounded-full"
                               src="	https://www.dash.org/wp-content/uploads/flags/filipino.svg"
                               alt="Rounded avatar"
                             ></img>
@@ -347,7 +347,7 @@ export default function Navbar() {
                         <MenuItem>
                           <Typography variant="h6" className="flex gap-2  pt-3">
                             <img
-                              class="w-10 h-6 rounded-full"
+                              className="w-10 h-6 rounded-full"
                               src="	https://www.dash.org/wp-content/uploads/flags/french.svg"
                               alt="Rounded avatar"
                             ></img>
@@ -359,7 +359,7 @@ export default function Navbar() {
                         <MenuItem>
                           <Typography variant="h6" className="flex gap-2  pt-3">
                             <img
-                              class="w-10 h-6 rounded-full"
+                              className="w-10 h-6 rounded-full"
                               src="https://www.dash.org/wp-content/uploads/flags/italian.svg"
                               alt="Rounded avatar"
                             ></img>
@@ -502,7 +502,7 @@ export default function Navbar() {
                       <MenuItem className="border-none">
                         <Typography variant="h6" className="flex gap-2 ">
                           <img
-                            class="w-10 h-6 rounded-full"
+                            className="w-10 h-6 rounded-full"
                             src="https://www.dash.org/wp-content/uploads/flags/USFlag.svg"
                             alt="Rounded avatar"
                           ></img>
@@ -514,7 +514,7 @@ export default function Navbar() {
                       <MenuItem>
                         <Typography variant="h6" className="flex gap-2  pt-3">
                           <img
-                            class="w-10 h-6 rounded-full"
+                            className="w-10 h-6 rounded-full"
                             src="https://www.dash.org/wp-content/uploads/flags/german.svg"
                             alt="Rounded avatar"
                           ></img>
@@ -526,7 +526,7 @@ export default function Navbar() {
                       <MenuItem>
                         <Typography variant="h6" className="flex gap-2  pt-3">
                           <img
-                            class="w-10 h-6 rounded-full"
+                            className="w-10 h-6 rounded-full"
                             src="https://www.dash.org/wp-content/uploads/flags/greek.svg"
                             alt="Rounded avatar"
                           ></img>
@@ -538,7 +538,7 @@ export default function Navbar() {
                       <MenuItem>
                         <Typography variant="h6" className="flex gap-2  pt-3">
                           <img
-                            class="w-10 h-6 rounded-full"
+                            className="w-10 h-6 rounded-full"
                             src="	https://www.dash.org/wp-content/uploads/flags/spanish.svg"
                             alt="Rounded avatar"
                           ></img>
@@ -550,7 +550,7 @@ export default function Navbar() {
                       <MenuItem>
                         <Typography variant="h6" className="flex gap-2  pt-3">
                           <img
-                            class="w-10 h-6 rounded-full"
+                            className="w-10 h-6 rounded-full"
                             src="	https://www.dash.org/wp-content/uploads/flags/filipino.svg"
                             alt="Rounded avatar"
                           ></img>
@@ -562,7 +562,7 @@ export default function Navbar() {
                       <MenuItem>
                         <Typography variant="h6" className="flex gap-2  pt-3">
                           <img
-                            class="w-10 h-6 rounded-full"
+                            className="w-10 h-6 rounded-full"
                             src="	https://www.dash.org/wp-content/uploads/flags/french.svg"
                             alt="Rounded avatar"
                           ></img>
@@ -574,7 +574,7 @@ export default function Navbar() {
                       <MenuItem>
                         <Typography variant="h6" className="flex gap-2  pt-3">
                           <img
-                            class="w-10 h-6 rounded-full"
+                            className="w-10 h-6 rounded-full"
                             src="https://www.dash.org/wp-content/uploads/flags/italian.svg"
                             alt="Rounded avatar"
                           ></img>

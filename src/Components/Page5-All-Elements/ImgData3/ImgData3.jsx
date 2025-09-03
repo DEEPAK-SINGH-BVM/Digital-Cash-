@@ -4,9 +4,9 @@ const ImgData3 = () => {
   return (
     <div
       id="theNetWorkFunds"
-      className={`bgColor flex justify-center sm:pt-10 lg:gap-30 flex  flex-col lg:flex-row py-27 `}
+      className={`bgColor flex justify-center sm:pt-10 lg:gap-20 flex  flex-col lg:flex-row py-27 `}
     >
-      <div class="flex flex-col justify-between p-4 leading-normal">
+      <div className="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
             className={`sm:pt-20  mb-2 text-4xl font-bold tracking-tight text-sky-500`}
@@ -14,7 +14,7 @@ const ImgData3 = () => {
             Bounty Rewards
           </h5>
 
-          <p class={`mb-2 sm:w-[400px] font-normal font-semibold text-white`}>
+          <p className={`mb-2 sm:w-[400px] font-normal font-semibold text-white`}>
             The goal of the DCG Bounty program is to uncover significant
             vulnerabilities that have a direct and demonstrable impact on the
             security of our users. Vulnerability submissions must meet certain
@@ -37,131 +37,131 @@ const ImgData3 = () => {
       </div>
       <div className="pt-20 ">
         <div className="overflow-auto ">
-          <div class="relative overflow-x-auto shadow-md sm:rounded-lg ">
-            <table class="w-full  text-base text-left rtl:text-right text-gray-500 dark:text-gray-400">
-              <thead class="text-xs  uppercase  text-white">
+          <div className="relative overflow-x-auto shadow-md sm:rounded-lg ">
+            <table className="w-full  text-base text-left rtl:text-right text-gray-500 dark:text-gray-400">
+              <thead className="text-xs  uppercase  text-white">
                 <tr className="text-sm">
-                  <th scope="col" class="px-6 py-3"></th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3"></th>
+                  <th scope="col" className="px-6 py-3">
                     Priority <br /> (High)
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Priority <br /> (Medium)
                   </th>
-                  <th scope="col" class="px-6 py-3">
+                  <th scope="col" className="px-6 py-3">
                     Priority <br /> (Low)
                   </th>
                 </tr>
               </thead>
 
               <tbody>
-                <tr class=" shadow-2xl odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-gray-200">
+                <tr className="px-20 shadow-2xl odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-gray-200">
                   <th
                     scope="row"
-                    class="px-6 py-4  text-gray-900 whitespace-nowrap dark:text-white font-medium "
+                    className="px-6 py-4  text-gray-900 whitespace-nowrap dark:text-white font-medium "
                   >
                     Severity <br /> (High)
                   </th>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     60 points
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     50 points
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $2999
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
                 </tr>
-                <tr class="bg-transparent">
+                <tr className="bg-transparent">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
                     Reward
                   </th>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $5,000
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $2,000
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $750
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
                 </tr>
-                <tr class="shadow-2xl odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-gray-200">
+                <tr className="shadow-2xl odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-gray-200">
                   <th
                     scope="row"
-                    class="px-6 py-4  text-gray-900 whitespace-nowrap dark:text-white font-medium "
+                    className="px-6 py-4  text-gray-900 whitespace-nowrap dark:text-white font-medium "
                   >
                     Severity <br /> (Medium)
                   </th>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     50 points
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     40 points
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     30 points
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
                 </tr>
-                <tr class="bg-transparent">
+                <tr className="bg-transparent">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
                     Reward
                   </th>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $2,000
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $750
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $200
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
                 </tr>
-                <tr class="shadow-2xl odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-gray-200">
+                <tr className="shadow-2xl odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-gray-200">
                   <th
                     scope="row"
-                    class="px-6 py-4  text-gray-900 whitespace-nowrap dark:text-white font-medium "
+                    className="px-6 py-4  text-gray-900 whitespace-nowrap dark:text-white font-medium "
                   >
                     Severity <br /> (Low)
                   </th>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     40 points
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     30 points
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     20 points
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
                 </tr>
-                <tr class="bg-transparent">
+                <tr className="bg-transparent">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
                     Reward
                   </th>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $2,000
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $750
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold">
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold">
                     $200
                   </td>
-                  <td class="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
+                  <td className="px-6 py-4 text-lg text-sky-500 font-semibold"></td>
                 </tr>
               </tbody>
             </table>

@@ -18,117 +18,117 @@ const ImgData3 = ({
     >
       <div className="pt-20 ">
         <div className="overflow-auto">
-          <table class="cursor-pointer w-full text-sm text-left rtl:text-right text-gray-500 ">
-            <thead class="text-xs text-sky-600 uppercase bg-gray-50  gap-3">
+          <table className="cursor-pointer w-full text-sm text-left rtl:text-right text-gray-500 ">
+            <thead className="text-xs text-sky-600 uppercase bg-gray-50  gap-3">
               <tr>
-                <th scope="col" class="px-6 py-3">
+                <th scope="col" className="px-6 py-3">
                   Latest Proposals
                 </th>
-                <th scope="col" class="px-6 py-3">
+                <th scope="col" className="px-6 py-3">
                   Votes (y/n)
                 </th>
-                <th scope="col" class="px-6 py-3">
+                <th scope="col" className="px-6 py-3">
                   Amount
                 </th>
-                <th scope="col" class="px-6 py-3">
+                <th scope="col" className="px-6 py-3">
                   Funding
                 </th>
               </tr>
             </thead>
             <tbody>
-              <tr class="bg-white border-1 hover:border-sky-300 border-gray-200">
+              <tr className="bg-white border-1 hover:border-sky-300 border-gray-200">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
+                  className="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
                 >
                   Adjusting Block Reward
                 </th>
-                <td class="px-6 py-4">Silver</td>
-                <td class="px-6 py-4">Laptop</td>
-                <td class="px-6 py-4">$2999</td>
+                <td className="px-6 py-4">Silver</td>
+                <td className="px-6 py-4">Laptop</td>
+                <td className="px-6 py-4">$2999</td>
               </tr>
-              <tr class="bg-white border-none border-gray-200">
+              <tr className="bg-white border-none border-gray-200">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+                  className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
                 >
                   {/* */}
                 </th>
-                <td class="px-6 py-4"></td>
-                <td class="px-6 py-4"></td>
-                <td class="px-6 py-4"></td>
+                <td className="px-6 py-4"></td>
+                <td className="px-6 py-4"></td>
+                <td className="px-6 py-4"></td>
               </tr>
-              <tr class="bg-white border-1 hover:border-sky-300 border-gray-200">
+              <tr className="bg-white border-1 hover:border-sky-300 border-gray-200">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
+                  className="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
                 >
                   Reduce selling pressure
                 </th>
-                <td class="px-6 py-4">Silver</td>
-                <td class="px-6 py-4">Laptop</td>
-                <td class="px-6 py-4 ">
+                <td className="px-6 py-4">Silver</td>
+                <td className="px-6 py-4">Laptop</td>
+                <td className="px-6 py-4 ">
                   <p className=" text-2xl text-green-500">
-                    <i class="fa-solid fa-circle-check"></i>
+                    <i className="fa-solid fa-circle-check"></i>
                   </p>
                 </td>
               </tr>
-              <tr class="bg-white ">
+              <tr className="bg-white ">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
+                  className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
                 ></th>
               </tr>
-              <tr class="bg-white border-1 hover:border-sky-300 border-gray-200">
+              <tr className="bg-white border-1 hover:border-sky-300 border-gray-200">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
+                  className="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
                 >
                   Apple MacBook Pro 17"
                 </th>
-                <td class="px-6 py-4">Silver</td>
-                <td class="px-6 py-4">Laptop</td>
-                <td class="px-6 py-4">$2999</td>
+                <td className="px-6 py-4">Silver</td>
+                <td className="px-6 py-4">Laptop</td>
+                <td className="px-6 py-4">$2999</td>
               </tr>
-              <tr class="bg-white ">
+              <tr className="bg-white ">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
+                  className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
                 ></th>
               </tr>
-              <tr class="bg-white border-1 hover:border-sky-300 border-gray-200">
+              <tr className="bg-white border-1 hover:border-sky-300 border-gray-200">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
+                  className="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
                 >
                   Apple MacBook Pro 17"
                 </th>
-                <td class="px-6 py-4">Silver</td>
-                <td class="px-6 py-4">Laptop</td>
-                <td class="px-6 py-4 ">
+                <td className="px-6 py-4">Silver</td>
+                <td className="px-6 py-4">Laptop</td>
+                <td className="px-6 py-4 ">
                   <p className=" text-2xl text-green-500">
-                    <i class="fa-solid fa-circle-check"></i>
+                    <i className="fa-solid fa-circle-check"></i>
                   </p>
                 </td>
               </tr>
-              <tr class="bg-white ">
+              <tr className="bg-white ">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
+                  className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
                 ></th>
               </tr>
-              <tr class="bg-white border-1 hover:border-sky-300 border-gray-200">
+              <tr className="bg-white border-1 hover:border-sky-300 border-gray-200">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
+                  className="px-6 py-4 font-medium  text-gray-900 whitespace-nowrap "
                 >
                   Apple MacBook Pro 17"
                 </th>
-                <td class="px-6 py-4">Silver</td>
-                <td class="px-6 py-4">Laptop</td>
-                <td class="px-6 py-4 ">
+                <td className="px-6 py-4">Silver</td>
+                <td className="px-6 py-4">Laptop</td>
+                <td className="px-6 py-4 ">
                   <p className=" text-2xl text-green-500">
-                    <i class="fa-solid fa-circle-check"></i>
+                    <i className="fa-solid fa-circle-check"></i>
                   </p>
                 </td>
               </tr>
@@ -137,7 +137,7 @@ const ImgData3 = ({
         </div>
       </div>
 
-      <div class="flex flex-col justify-between p-4 leading-normal">
+      <div className="flex flex-col justify-between p-4 leading-normal">
         
         <div>
           <h5
@@ -147,12 +147,12 @@ const ImgData3 = ({
           </h5>
 
           <p
-            class={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
+            className={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
           >
             {paragraph}
           </p>
           <p
-            class={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
+            className={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
           >
             {paragraph2}
           </p>

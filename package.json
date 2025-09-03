@@ -13,6 +13,7 @@
     "@headlessui/react": "^2.2.7",
     "@heroicons/react": "^2.2.0",
     "@material-tailwind/react": "^2.1.10",
+    "@react-navigation/native": "^7.1.17",
     "@tailwindcss/vite": "^4.1.12",
     "react": "^19.1.0",
     "react-countup": "^6.5.3",

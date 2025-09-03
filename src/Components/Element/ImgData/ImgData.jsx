@@ -17,7 +17,7 @@ const ImgData = ({
       <div>
         <img src={image} alt="" className="h-[550px]  hidden md:block" />
       </div>
-      <div class="flex flex-col justify-between p-4 leading-normal">
+      <div className="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
             className={`sm:pt-20  mb-2 text-3xl font-bold tracking-tight  ${titleColor}`}
@@ -25,19 +25,19 @@ const ImgData = ({
             {title}
           </h5>
           <p
-            class={`mb-3 w-[300px] font-normal font-semibold ${paragraphColor}`}
+            className={`mb-3 w-[300px] font-normal font-semibold ${paragraphColor}`}
           >
             {paragraph}
           </p>
           {/* */}
           <p className="text-white pt-2 ">
-            <i class="fa-solid fa-right-to-bracket"></i> How Mining Works
+            <i className="fa-solid fa-right-to-bracket"></i> How Mining Works
           </p>
           <p className="text-white pt-2">
-            <i class="fa-solid fa-right-to-bracket"></i> How the network Works
+            <i className="fa-solid fa-right-to-bracket"></i> How the network Works
           </p>
           <p className="text-white pt-2">
-            <i class="fa-solid fa-right-to-bracket"></i> Resource and Support
+            <i className="fa-solid fa-right-to-bracket"></i> Resource and Support
             documentation
           </p>
           <div>

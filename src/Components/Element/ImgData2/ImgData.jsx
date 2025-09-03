@@ -15,7 +15,7 @@ const ImgData2 = ({
     <div
       className={` flex justify-center pb-20 sm:pt-15 sm:gap-30  flex flex-col md:flex-row  ${bgColor}`}
     >
-      <div class="flex flex-col justify-between p-4 leading-normal">
+      <div className="flex flex-col justify-between p-4 leading-normal">
         <div>
           <h5
             className={`sm:pt-20  mb-2 text-3xl font-bold tracking-tight  ${titleColor}`}
@@ -23,12 +23,12 @@ const ImgData2 = ({
             {title}
           </h5>
           <p
-            class={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
+            className={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
           >
             {paragraph}
           </p>
           <p
-            class={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
+            className={`mb-2 sm:w-[340px] font-normal font-semibold ${paragraphColor}`}
           >
             {paragraph2}
           </p>

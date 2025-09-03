@@ -14,14 +14,14 @@ const DashComponent = ({ DashImage, DashText, DashParagraph, btn1, btn2 }) => {
             className="h-[400px]  hidden sm:block"
           />
         </div>
-        <div class="flex flex-col justify-between p-4 leading-normal">
+        <div className="flex flex-col justify-between p-4 leading-normal">
           <div>
             <h5
               className={`text-sky-600 text-5xl font-bold sm:pt-20  mb-2 text-3xl font-bold tracking-tight `}
             >
               {DashText}
             </h5>
-            <p class={`mb-3  w-[300px] font-normal font-semibold`}>
+            <p className={`mb-3  w-[300px] font-normal font-semibold`}>
               {DashParagraph}
             </p>
             {/*  */}
