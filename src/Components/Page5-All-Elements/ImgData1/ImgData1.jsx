@@ -1,14 +1,13 @@
 import React from "react";
 import ImageData from "../../Element-5/ImgData1/ImgData1";
 import Paragraph from "../../Element-4/Paragraph/Paragraph";
-// import "./imgData.css";
 const ImgData1 = () => {
-    const points = [
-      "Mainnet",
-      "Dash Core Desktop Wallet",
-      "DashPay Android",
-      "DashPay iOS",
-    ];
+  const points = [
+    "Mainnet",
+    "Dash Core Desktop Wallet",
+    "DashPay Android",
+    "DashPay iOS",
+  ];
   return (
     <div>
       <ImageData

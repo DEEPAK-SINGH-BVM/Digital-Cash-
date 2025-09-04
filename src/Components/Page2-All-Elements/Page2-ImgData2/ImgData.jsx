@@ -1,30 +1,6 @@
-// import React from "react";
-// import ImageData2 from "../../Element/ImgData2/ImgData";
-// // import "./ImgData2.css";
-// const ImgData2 = () => {
-//   return (
-    //     <div>
-    //       <ImageData2
-    //         bgColor={"bg-sky-500"}
-    //         title={"Get Going!"}
-    //         titleColor={"text-white "}
-    //         paragraph={
-//           "Grab a coffee, buy a plane ticket, or pay your phone bill. Dash is growing and is accepted by new businesses every day."
-//         }
-//         paragraphColor={"text-white"}
-//         button={"Use Your Dash"}
-//       />
-//       {/* dashImg, dashText, paragraph */}
-     
-//     </div>
-//   );
-// };
-// export default ImgData2;
 import React from "react";
-
 import Button from "../../Elements-2/Button2/Button";
-
-import "./ImgData2.css"
+import "./ImgData2.css";
 import DashBox from "../../Elements-2/DashBox/DashBox";
 // import "";
 const ImgData2 = () => {
@@ -41,7 +17,9 @@ const ImgData2 = () => {
               Get Going!
             </h5>
 
-            <p className={`mb-2 sm:w-[340px] font-normal font-semibold text-white`}>
+            <p
+              className={`mb-2 sm:w-[340px] font-normal font-semibold text-white`}
+            >
               Grab a coffee, buy a plane ticket, or pay your phone bill. Dash is
               growing and is accepted by new businesses every day.
             </p>
@@ -104,12 +82,11 @@ const ImgData2 = () => {
         </div>
         <div></div>
       </div>
-      {/* <hr className="HrColor " /> */}
+
       <div className="bg-sky-500 pt-20">
         <hr className="w-[60%] h-0.5 mx-auto  bg-white  rounded-sm border-0 "></hr>
       </div>
       <div className="flex justify-center pt-12 pb-12 bg-sky-500 ">
-        {/* <hr className=" " /> */}
         <div className="flex flex-wrap justify-center gap-6 ">
           <Button
             btnImg={

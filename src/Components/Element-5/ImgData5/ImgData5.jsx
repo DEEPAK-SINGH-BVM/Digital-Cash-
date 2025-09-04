@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const ImgData5 = ({
   Img,
@@ -26,7 +26,7 @@ const ImgData5 = ({
             <p className=" w-[300px]  font-semibold text-gray-700">
               {paragraph2}
             </p>
-            {/*  */}
+
             <p className="font-bold pt-3">{subTitle2}</p>
             <p className="font-normal italic">{paragraph3}</p>
             <br />
@@ -40,4 +40,4 @@ const ImgData5 = ({
   );
 };
 
-export default ImgData5
+export default ImgData5;

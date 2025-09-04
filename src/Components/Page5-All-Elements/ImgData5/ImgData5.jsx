@@ -1,9 +1,5 @@
-
-
 import React from "react";
 import ImageData2 from "../../Element-5/ImgData2/ImgData";
-import Paragraph from "../../Element-4/Paragraph/Paragraph";
-// import "./imgData.css";
 const ImgData2 = () => {
   const points = [
     "Vulnerabilities that require root/jailbreak access to exploit unless the root/jailbreak is initiated by the attacker after gaining physical access to the device",
@@ -26,4 +22,4 @@ const ImgData2 = () => {
     </div>
   );
 };
-export default ImgData2;  
+export default ImgData2;

@@ -1,14 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const DashButton = ({button,className}) => {
+const DashButton = ({ button, className }) => {
   return (
     <div>
-    
-      <button className={className}>
-        {button}
-      </button>
+      <button className={className}>{button}</button>
     </div>
   );
-}
+};
 
 export default DashButton;

@@ -1,5 +1,4 @@
 import React from "react";
-// import Navbar from "../../Components/Page1-All-Components/Navbar/Navbar";
 import Hero from "../../Components/Page1-All-Components/Hero/Hero";
 import Box from "../../Components/Page1-All-Components/Box-Model/Box";
 import DesignBox from "../../Components/Page1-All-Components/Design/Design";
@@ -9,12 +8,10 @@ import ImgData from "../../Components/Page1-All-Components/ImgData/ImgData";
 import ImgData2 from "../../Components/Page1-All-Components/ImgData2/ImgData2";
 import ImgData3 from "../../Components/Page1-All-Components/ImgData3/ImgData3";
 import Image from "../../Components/Page1-All-Components/image/img";
-import Footer from "../../Components/Page1-All-Components/Footer/Footer";
 const Main = () => {
   return (
     <div>
       <Hero />
-      {/* <Navbar /> */}
       <DesignBox />
       <Box />
       <Dash />
@@ -23,10 +20,7 @@ const Main = () => {
       <ImgData2 />
       <ImgData3 />
       <Image />
-      <Footer />
-      {/* <MenuCustomList/> */}
     </div>
   );
 };
-
 export default Main;

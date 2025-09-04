@@ -1,16 +1,6 @@
 import React from "react";
 import ImgData1 from "../../Element-4/ImgData1/ImgData";
-/*
-  image,
-  title,
-  paragraph,
-  button,
-  titleColor,
-  paragraphColor,
-  bgColor,
-  className
-  
-*/
+
 const ImgData3 = () => {
   return (
     <div className="">

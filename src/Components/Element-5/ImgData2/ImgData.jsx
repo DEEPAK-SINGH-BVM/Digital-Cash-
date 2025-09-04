@@ -1,5 +1,4 @@
 import React from "react";
-// import "";
 const ImgData2 = ({
   image,
   title,
@@ -23,7 +22,9 @@ const ImgData2 = ({
           >
             {title}
           </h5>
-          <p className={` mb-3 w-[300px] text-md font-semibold ${paragraphColor}`}>
+          <p
+            className={` mb-3 w-[300px] text-md font-semibold ${paragraphColor}`}
+          >
             {paragraph}
           </p>
           <ul className="mb-4 list-disc text-left pl-5">

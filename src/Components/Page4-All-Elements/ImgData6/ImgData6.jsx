@@ -1,10 +1,8 @@
 import React from "react";
 import ImageData from "../../Element-3/ImgData2/ImgData";
-// import "./imgData.css";
 const ImgData6 = () => {
   return (
     <div>
-      {/* */}
       <ImageData
         image={
           "https://media.dash.org/wp-content/uploads/homepageimage-3-1.png"

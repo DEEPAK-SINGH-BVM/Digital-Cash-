@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "../../Components/Page5-All-Elements/Navbar/Nav";
-import Footer from "../../Components/Page1-All-Components/Footer/Footer";
+
 import ImgData1 from "../../Components/Page5-All-Elements/ImgData1/ImgData1";
 import ImgData2 from "../../Components/Page5-All-Elements/ImgData2/ImgData2";
 import ImgData3 from "../../Components/Page5-All-Elements/ImgData3/ImgData3";
@@ -13,7 +12,6 @@ import ImgData8 from "../../Components/Page5-All-Elements/ImgData8/ImgData8";
 const Main = () => {
   return (
     <div>
-      {/* <Navbar /> */}
       <ImgData1 />
       <ImgData2 />
       <ImgData3 />
@@ -21,8 +19,7 @@ const Main = () => {
       <ImgData5 />
       <ImgData6 />
       <ImgData7 />
-      <ImgData8/>
-      <Footer />
+      <ImgData8 />
     </div>
   );
 };

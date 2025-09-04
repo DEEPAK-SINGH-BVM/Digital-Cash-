@@ -1,5 +1,5 @@
 import React from "react";
-// import "";
+
 const ImgData3 = ({
   image,
   title,
@@ -52,7 +52,7 @@ const ImgData3 = ({
                   scope="row"
                   className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
                 >
-                  {/* */}
+          
                 </th>
                 <td className="px-6 py-4"></td>
                 <td className="px-6 py-4"></td>
@@ -138,7 +138,6 @@ const ImgData3 = ({
       </div>
 
       <div className="flex flex-col justify-between p-4 leading-normal">
-        
         <div>
           <h5
             className={`sm:pt-20  mb-2 text-3xl font-bold tracking-tight  ${titleColor}`}

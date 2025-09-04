@@ -1,16 +1,6 @@
-import React from 'react'
-import ImgData1 from '../../Element-4/ImgData1/ImgData';
-/*
-  image,
-  title,
-  paragraph,
-  button,
-  titleColor,
-  paragraphColor,
-  bgColor,
-  className
-  
-*/
+import React from "react";
+import ImgData1 from "../../Element-4/ImgData1/ImgData";
+
 const ImgData = () => {
   return (
     <div className="pt-30">
@@ -25,6 +15,6 @@ const ImgData = () => {
       />
     </div>
   );
-}
+};
 
-export default ImgData
+export default ImgData;

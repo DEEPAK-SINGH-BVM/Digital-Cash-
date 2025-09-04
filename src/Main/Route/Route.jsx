@@ -5,7 +5,6 @@ import Main from "../Page1/Page1";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import Page5 from "../Page5/Page5";
 import PageNotFound from "../PageNotFound/PageNotFound";
-// import Navbar from "./Components/Page1-All-Components/Navbar/Navbar";
 import Navbar from "../../Components/Page1-All-Components/Navbar/Navbar";
 function RouterPage() {
   return (

@@ -1,7 +1,6 @@
 import HeroComponents from "../../Element/Hero/Hero";
 
 export default function Hero() {
-
   return (
     <div className="Img-Div relative  bg-sky-900 font-Inter, sans-serif ">
       <HeroComponents

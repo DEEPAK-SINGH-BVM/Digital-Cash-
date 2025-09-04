@@ -1,6 +1,6 @@
 import React from "react";
 import ImageData3 from "../../Element/ImgData3/ImgData3";
-// import "./ImgData2.css";
+
 const ImgData3 = () => {
   return (
     <div>

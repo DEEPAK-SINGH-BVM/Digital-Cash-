@@ -1,5 +1,4 @@
 import React from "react";
-// import "";
 const ImgData = ({
   image,
   title,
@@ -29,16 +28,16 @@ const ImgData = ({
           >
             {paragraph}
           </p>
-          {/* */}
           <p className="text-white pt-2 ">
             <i className="fa-solid fa-right-to-bracket"></i> How Mining Works
           </p>
           <p className="text-white pt-2">
-            <i className="fa-solid fa-right-to-bracket"></i> How the network Works
+            <i className="fa-solid fa-right-to-bracket"></i> How the network
+            Works
           </p>
           <p className="text-white pt-2">
-            <i className="fa-solid fa-right-to-bracket"></i> Resource and Support
-            documentation
+            <i className="fa-solid fa-right-to-bracket"></i> Resource and
+            Support documentation
           </p>
           <div>
             <button className="cursor-pointer hover:border-sky-400 hover:text-sky-400 mt-5 text-white p-4 border border-1  border-white w-[200px]  rounded-sm font-semibold">

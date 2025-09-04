@@ -1,21 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
-/* .bg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 200px 0 200px 0;
-    transform: skew(-5deg);
-}
-.banner-shape.pull-up {
-    margin-top: -100px;
-    position: absolute;
-    z-index: 3;
-    border: 2px solid red;
-} */
+
 
 .banner-shape.pull-up {
   margin-top: -100px;

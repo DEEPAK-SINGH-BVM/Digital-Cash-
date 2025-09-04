@@ -1,7 +1,7 @@
 import React from "react";
 import "./Dash.css";
 import DashBox from "../../Element/DashBox/DashBox";
-// Changes
+
 const dashData = [
   {
     image: "https://media.dash.org/wp-content/uploads/icon-medium-medium.svg",
@@ -38,7 +38,6 @@ const dashData = [
   },
 ];
 const dashDataDiv = [
-
   {
     image:
       "https://media.dash.org/wp-content/uploads/icon-instagram-white-1.svg",
@@ -53,7 +52,10 @@ const dashDataDiv = [
 const Dash = () => {
   return (
     <>
-      <div id="Whats" className="BackGround grid mt-10  shadow-xs  md:grid-cols-2  ">
+      <div
+        id="Whats"
+        className="BackGround grid mt-10  shadow-xs  md:grid-cols-2  "
+      >
         <figure className="flex flex-col items-center justify-center text-center rounded-t-lg md:rounded-t-none md:rounded-ss-lg">
           <blockquote className=" max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 text-white">
             <h1 className="text-4xl font-semibold text-white ">
@@ -62,7 +64,6 @@ const Dash = () => {
           </blockquote>
         </figure>
         <figure className="flex flex-col items-center justify-center lg:items-start text-center md:rounded-se-lg lg:mt-15 sm:pt-10  ">
-          {/* changes pt-10 */}
           <figcaption className="flex items-center justify-center">
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-10 text-center grid-item-container ">
               {dashData.map((item, index) => (

@@ -1,8 +1,6 @@
 
 import React from "react";
 import ImageData2 from "../../Element-5/ImgData2/ImgData";
-import Paragraph from "../../Element-4/Paragraph/Paragraph";
-// import "./imgData.css";
 const ImgData2 = () => {
   const points = [
     "Identify a vulnerability that was not previously reported to, or otherwise known by, DCG",

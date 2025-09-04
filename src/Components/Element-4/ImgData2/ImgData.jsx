@@ -1,5 +1,3 @@
-//  import React from "react";
-// import "";
 const ImgData2 = ({
   image,
   title,
@@ -8,7 +6,7 @@ const ImgData2 = ({
   titleColor,
   paragraphColor,
   bgColor,
-  className
+  className,
 }) => {
   return (
     <div
