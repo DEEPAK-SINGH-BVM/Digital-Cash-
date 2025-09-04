@@ -3,16 +3,7 @@ import "./Dash.css";
 import DashBox from "../../Elements-2/DashBox/DashBox";
 import DashButton from "../../Elements-2/Button/Button";
 // import "";
-const Dash = ({
-  image,
-  title,
-  paragraph,
-  button,
-  titleColor,
-  paragraphColor,
-  bgColor,
-  paragraph2,
-}) => {
+const Dash = () => {
   return (
     <div
       className={`  DashBody flex justify-center items-center sm:gap-30  flex flex-col md:flex-row`}

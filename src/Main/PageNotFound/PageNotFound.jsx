@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from "react";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 const PageNotFound = () => {
   const navigate = useNavigate();
-  // let lastPageUrl = document.referrer;
-  // console.log(`Last visited page URL is ${lastPageUrl}`);
+  let lastPageUrl = document.referrer;
+  console.log(`Last visited page URL is ${lastPageUrl}`);
   // console.log(document.referrer);
   // let referrer = document.referrer;
   // console.log(referrer);
@@ -18,8 +18,10 @@ const PageNotFound = () => {
   // function NextPage() {
   //   window.history.go(-1);
   // }
-  let length = history.length;
-  console.log(length, "HISTORY");
+  // console.log(history, "HISTORY-1");
+
+  // let length = history.length;
+  // console.log(length, "HISTORY");
   return (
     <div>
       <div className="z-10 pt-10 flex justify-center">
@@ -28,18 +30,15 @@ const PageNotFound = () => {
           alt=""
         />
       </div>
-
       {/* <Link
-      
         to={-1}
         className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
       >
         Individual
       </Link> */}
-
       <div className="flex justify-center">
-        <button
-          type="button"
+        <button           
+          type="button"   
           className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           onClick={() => navigate(-1)}
         >
@@ -49,5 +48,4 @@ const PageNotFound = () => {
     </div>
   );
 };
-
 export default PageNotFound;

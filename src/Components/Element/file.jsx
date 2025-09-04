@@ -1,0 +1,100 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Page.css';
+
+const PageNotFound = () => {
+  const navigate = useNavigate();
+  const handleGoBack = () => {
+    const previousValidPath = localStorage.getItem('lastValidPath') || '/';
+    navigate(previousValidPath, { replace: true });
+  };
+
+  const goToHome = () => {
+    navigate('/', { replace: true });
+  };
+
+  return (
+    <div className="page-not-found">
+      <div className="not-found-content">
+        <div className="number">4</div>
+        <div className="moon"></div>
+        <div className="number">4</div>
+        <div className="astronaut"></div>
+        <h1>Page Not Found</h1>
+        <p>Oops! The page you're looking for doesn't exist.</p>
+        <p>It might have been moved or deleted.</p>
+        
+        <div className="button-group">
+          <button onClick={handleGoBack} className="go-back-btn">
+            Go Back to Previous Page
+          </button>
+          <button onClick={goToHome} className="home-btn">
+            Go to Home Page
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PageNotFound;
+
+//////
+
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+function RouteWatcher() {
+  const location = useLocation();
+
+  useEffect(() => {
+
+    const validRoutes = [
+      "/", 
+      "/individual", 
+      "/traders", 
+      "/platforms", 
+      "/BugBounty"
+    ];
+    
+    if (validRoutes.includes(location.pathname)) {
+      localStorage.setItem("lastValidPath", location.pathname);
+    }
+  }, [location]);
+
+  return null;
+}
+
+// export default RouteWatcher;
+
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Page1-All-Components/Navbar/Navbar";
+import Main from "./Main/Page1/Page1";
+import Page2 from "./Main/Page2/Page2";
+import Page3 from "./Main/Page3/Page3";
+import Page4 from "./Main/Page4/Page4";
+import Page5 from "./Main/Page5/Page5";
+import PageNotFound from "./Main/PageNotFound/PageNotFound";
+import RouteWatcher from "./Main/PageNotFound/Route";
+
+function App() {
+  return (
+    <div>
+      <BrowserRouter>
+        <Navbar />
+        <RouteWatcher />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/individual" element={<Page2 />} />
+          <Route path="/traders" element={<Page3 />} />
+          <Route path="/platforms" element={<Page4 />} />
+          <Route path="/BugBounty" element={<Page5 />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+// export default App;
