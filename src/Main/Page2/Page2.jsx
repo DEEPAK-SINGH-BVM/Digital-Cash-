@@ -6,7 +6,7 @@ import Design from "../../Components/Page2-All-Elements/Page2-Design/Design";
 import Count from "../../Components/Page2-All-Elements/Page2-Count/Count";
 import ImgData from "../../Components/Page2-All-Elements/Page2-ImgData/ImgData";
 import ImgData2 from "../../Components/Page2-All-Elements/Page2-ImgData2/ImgData";
-import ImgData3 from "../../Components/Page2-All-Elements/Page3-ImgData3/ImgData";
+// import ImgData3 from "../../Components/Page2-All-Elements/Page3-ImgData3/ImgData";
 const Main = () => {
   return (
     <div>
@@ -17,7 +17,7 @@ const Main = () => {
       <Count />
       <ImgData />
       <ImgData2 />
-      <ImgData3 />
+{/*       <ImgData3 /> */}
 
     </div>
   );
